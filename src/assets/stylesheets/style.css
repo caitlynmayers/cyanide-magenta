@@ -42,3 +42,27 @@ p {
   font-size: 20px;
   letter-spacing: .05em;
   line-height: 30px; }
+
+.feature-area {
+  border: 1px solid #414042;
+  margin: 2.5rem; }
+  .feature-area:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+nav {
+  font-family: "trumpgothicpro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  float: right;
+  padding: 1rem 0;
+  text-transform: uppercase; }
+  nav a {
+    color: #4c5c65;
+    letter-spacing: .1em;
+    padding: .5rem 1rem;
+    text-decoration: none; }
+    nav a:hover {
+      color: #ec008c; }
