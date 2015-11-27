@@ -2,6 +2,9 @@
 The main SCSS file for everything, yep
 */
 
-@import "poole";
-@import "syntax";
-@import "lanyon";
+/* @import "modules/poole";
+@import "modules/syntax";
+@import "modules/lanyon";*/
+@import "modules/mixins";
+@import "modules/base";
+@import "modules/type";

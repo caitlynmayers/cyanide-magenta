@@ -1,0 +1,58 @@
+// Import Source Sans
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,400italic,700,700italic');
+
+// Type Variables
+$source: 'source sans pro';
+$trump: 'trumpgothicpro';
+
+// Type Mixins
+@mixin source-xl($size, $style) {
+  font-family: $source;
+  font-weight: 200;
+  font-style: $style;
+  font-size: $size;
+}
+
+@mixin source-reg($size, $style) {
+  font-family: $source;
+  font-weight: 400;
+  font-style: $style;
+  font-size: $size;
+}
+
+@mixin source-bold($size, $style) {
+  font-family: $source;
+  font-weight: 700;
+  font-style: $style;
+  font-size: $size;
+}
+
+@mixin trump-reg($size, $style) {
+  font-family: $trump;
+  font-weight: 400;
+  font-style: $style;
+  font-size: $size;
+}
+
+@mixin trump-bold($size, $style) {
+  font-family: $trump;
+  font-weight: 700;
+  font-style: $style;
+  font-size: $size;
+}
+
+// Type Styles
+h1 {
+  @include trump-reg(48px, normal);
+
+  color: $dark-gray;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+p {
+  @include source-xl(20px, normal);
+
+  letter-spacing: .05em;
+  line-height: 30px;
+}
