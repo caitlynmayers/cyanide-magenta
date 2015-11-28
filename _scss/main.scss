@@ -1,6 +1,9 @@
-@import "reset";
-@import "syntax";
+// Default Modules
+// @import "modules/reset";
+// @import "modules/syntax";
 
-body {
-    background: white;
-}
+// Custom Modules
+@import "modules/mixins";
+@import "modules/base";
+@import "modules/type";
+@import "modules/header";
