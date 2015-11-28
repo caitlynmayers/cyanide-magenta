@@ -1,5 +1,8 @@
-jekyll-gulp-sass-browser-sync
+Cyanide & Magenta
 =============================
+This is the late 2015 rebuild of Cyanide & Magenta/Caitlynmayers.com. The site is built using the [Jekyll-Gulp-Sass-Browsersync](https://github.com/shakyShane/jekyll-gulp-sass-browser-sync) starter project.
+
+#jekyll-gulp-sass-browser-sync
 
 A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
