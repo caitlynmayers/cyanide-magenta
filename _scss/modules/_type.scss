@@ -53,7 +53,7 @@ h1 {
 h2 {
   @include source-xl(20px, normal);
 
-  color: purple;
+  color: red;
   letter-spacing: .05em;
   text-transform: uppercase;
 }

@@ -2,25 +2,51 @@
   @include clearfix;
 
   border: 1px solid #414042;
+  height: 500px;
   margin: 2.5rem;
 
-}
+  .wrapper {
+      @include clearfix;
+      
+      border-bottom: 1px solid #414042;
+      width: 100%;
 
-nav {
-  @include trump-bold(22px, normal)
+    .logo {
+      @include clearfix;
 
-  float: right;
-  padding: 1rem 0;
-  text-transform: uppercase;
+      border-right: 1px solid #414042;
+      float: left;
+      max-height: 65px;
+      margin: 0;
+      max-width: 280px;
+      width: 100%;
 
-  a {
-    color: $dark-gray;
-    letter-spacing: .1em;
-    padding: .5rem 1rem;
-    text-decoration: none;
-
-    &:hover {
-      color: $magenta;
+      svg {
+        margin: 0 auto;
+        height: 100%;
+      }
     }
+
+    nav {
+      @include trump-bold(20px, normal)
+
+      float: right;
+      height: 100%;
+      padding: 1.25rem 0;
+      text-transform: uppercase;
+
+      a {
+        color: $dark-gray;
+        letter-spacing: .1em;
+        padding: 1.5rem;
+        text-decoration: none;
+
+        &:hover {
+          color: $magenta;
+        }
+      }
+    }
+
   }
+
 }
