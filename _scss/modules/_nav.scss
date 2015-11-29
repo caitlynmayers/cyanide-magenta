@@ -1,19 +1,28 @@
 nav {
-      @include trump-bold(20px, normal)
+  @include trump-bold(20px, normal)
 
-      float: right;
-      height: 100%;
-      padding: 1.25rem 0;
-      text-transform: uppercase;
+  float: right;
+  height: 100%;
+  padding: 1.25rem 0;
+  text-transform: uppercase;
 
-      a {
-        color: $dark-gray;
-        letter-spacing: .1em;
-        padding: 1.5rem;
-        text-decoration: none;
+  a {
+    letter-spacing: .1em;
+    padding: 1.5rem;
+    text-decoration: none;
 
-        &:hover {
-          color: $magenta;
-        }
-      }
+    &:hover {
+      color: $magenta;
     }
+  }
+}
+
+.-header {
+  a {
+    color: $gray;
+  }
+}
+
+.-footer {
+  background-color: $dark-gray;
+}

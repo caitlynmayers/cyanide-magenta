@@ -1,0 +1,15 @@
+// Base Button Style
+.btn {
+  @include source-bold(18px, normal);
+
+  border: 1px solid;
+  letter-spacing: .1em;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+}
+
+// Button Modifiers
+.-blue {
+  border-color: $cyan;
+  color: $cyan;
+}

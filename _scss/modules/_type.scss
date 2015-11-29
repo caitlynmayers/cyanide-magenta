@@ -45,17 +45,16 @@ $trump: 'trumpgothicpro';
 h1 {
   @include trump-reg(48px, normal);
 
-  color: $dark-gray;
+  color: $gray;
   letter-spacing: .05em;
   text-transform: uppercase;
 }
 
 h2 {
-  @include source-xl(20px, normal);
+  @include source-xl(24px, normal);
 
-  color: red;
+  color: $dark-gray;
   letter-spacing: .05em;
-  text-transform: uppercase;
 }
 
 p {

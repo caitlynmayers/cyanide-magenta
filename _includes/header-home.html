@@ -51,7 +51,7 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
-    <nav>
+    <nav class="-header">
     {% assign pages_list = site.pages %}
         {% for node in pages_list %}
           {% if node.title != null %}
@@ -63,9 +63,8 @@
     </nav>
   </div>
   <div class="content">
-    <div>
-      <h1>I help build the Internet.</h1>
-      <h2>Hi! I’m Caitlyn Mayers, and I’m a strategist, designer and front-end developer in Richmond, Virginia.</h2>
-    </div>
+    <h1>I help build the Internet.</h1>
+    <h2>Hi! I’m Caitlyn Mayers, and I’m a strategist, designer and front-end developer in Richmond, Virginia.</h2>
+    <a class="btn -blue">Learn more about me</a>
   </div>
 </div>
