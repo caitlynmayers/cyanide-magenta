@@ -472,19 +472,20 @@ p {
       .feature-area .wrapper .logo svg {
         margin: 0 auto;
         height: 100%; }
-    .feature-area .wrapper nav {
-      font-family: "trumpgothicpro";
-      font-weight: 700;
-      font-style: normal;
-      font-size: 20px;
-      float: right;
-      height: 100%;
-      padding: 1.25rem 0;
-      text-transform: uppercase; }
-      .feature-area .wrapper nav a {
-        color: #4c5c65;
-        letter-spacing: .1em;
-        padding: 1.5rem;
-        text-decoration: none; }
-        .feature-area .wrapper nav a:hover {
-          color: #ec008c; }
+
+nav {
+  font-family: "trumpgothicpro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  float: right;
+  height: 100%;
+  padding: 1.25rem 0;
+  text-transform: uppercase; }
+  nav a {
+    color: #4c5c65;
+    letter-spacing: .1em;
+    padding: 1.5rem;
+    text-decoration: none; }
+    nav a:hover {
+      color: #ec008c; }

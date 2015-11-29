@@ -26,27 +26,5 @@
         height: 100%;
       }
     }
-
-    nav {
-      @include trump-bold(20px, normal)
-
-      float: right;
-      height: 100%;
-      padding: 1.25rem 0;
-      text-transform: uppercase;
-
-      a {
-        color: $dark-gray;
-        letter-spacing: .1em;
-        padding: 1.5rem;
-        text-decoration: none;
-
-        &:hover {
-          color: $magenta;
-        }
-      }
-    }
-
   }
-
 }
