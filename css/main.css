@@ -1,10 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,400italic,700,700italic");
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 /*****************************************************************************/
 /*
 /* Common
 /*
 /*****************************************************************************/
 /* Global Reset */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,400italic,700,700italic");
 * {
   margin: 0;
   padding: 0; }
