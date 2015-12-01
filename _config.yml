@@ -1,4 +1,8 @@
-name: Your New Jekyll Site
+name: Cyanide + Magenta
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+collections:
+ case-studies:
+  output: true
+  permalink: /case-studies/:path/
