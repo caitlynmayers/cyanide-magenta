@@ -1,0 +1,12 @@
+<div class="case-studies">
+  <ul>
+    {% for case-study in site.case-studies %}
+    <a href="{{ case-study.url }}">
+      <li>
+        <h1>{{ case-study.title }}</h1>
+        <p>{{ case-study.categories }}</p>
+      </li>
+    </a>
+    {% endfor %}
+  </ul>
+</div>

@@ -420,6 +420,9 @@ a:visited {
 *, *:before, *:after {
   box-sizing: border-box; }
 
+html {
+  font-size: 16px; }
+
 body {
   background-color: #fcfcfc; }
 
@@ -529,3 +532,17 @@ nav {
 
 footer {
   background-color: #414042; }
+
+.case-studies {
+  text-align: left;
+  margin: 1rem; }
+  .case-studies a {
+    text-decoration: none; }
+  .case-studies h1 {
+    margin-bottom: 0; }
+  .case-studies p {
+    margin: 0; }
+  .case-studies ul {
+    list-style-type: none; }
+    .case-studies ul li {
+      padding: 2rem 6rem; }
