@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Unboxed Technology
+title: Richmond Symphony
 category: Website Design
-tags: [web strategy, web design]
 ---
 
 <h1>{{ page.title }}</h1>

@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Unboxed Technology
+title: Pacers Running
 category: Website Design
-tags: [web strategy, web design]
 ---
 
 <h1>{{ page.title }}</h1>
