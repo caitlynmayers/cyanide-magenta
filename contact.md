@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+weight: 4
 ---
 
 <div id="home">

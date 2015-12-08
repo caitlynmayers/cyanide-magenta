@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog
+weight: 3
 ---
 
 <div id="home">
