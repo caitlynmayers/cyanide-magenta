@@ -521,19 +521,43 @@ nav {
 .-footer {
   background-color: #414042; }
 
-.btn {
+button {
   font-family: "source sans pro";
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
+  transition: all 100ms ease-in-out;
+  background: none;
   border: 1px solid;
+  cursor: pointer;
   letter-spacing: .1em;
+  overflow: hidden;
   padding: 1rem 1.5rem;
-  text-transform: uppercase; }
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 1; }
+  button a {
+    text-decoration: none; }
 
 .-blue {
-  border-color: #0095da;
-  color: #0095da; }
+  border-color: #0095da; }
+  .-blue a {
+    color: #0095da; }
+  .-blue:hover a {
+    color: white; }
+  .-blue:hover:before {
+    top: 0; }
+  .-blue:before {
+    transition: all 100ms ease-in-out;
+    background: #0095da;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1; }
 
 footer {
   background-color: #414042; }

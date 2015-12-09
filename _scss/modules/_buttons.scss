@@ -1,15 +1,53 @@
 // Base Button Style
-.btn {
-  @include source-bold(18px, normal);
+button {
+	@include source-bold(18px, normal);
+	@include transition(all 100ms ease-in-out);
 
-  border: 1px solid;
-  letter-spacing: .1em;
-  padding: 1rem 1.5rem;
-  text-transform: uppercase;
+	background: none;
+	border: 1px solid;
+	cursor: pointer;
+	letter-spacing: .1em;
+	overflow: hidden;
+	padding: 1rem 1.5rem;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	z-index: 1;
+
+	a {
+		text-decoration: none;
+	}
 }
 
 // Button Modifiers
 .-blue {
-  border-color: $cyan;
-  color: $cyan;
+	border-color: $cyan;
+
+	a {
+		color: $cyan;
+	}
+
+
+	&:hover {
+		a {
+			color: white;
+		}
+
+		&:before {
+			top: 0;
+		}
+	}
+
+	&:before {
+		@include transition(all 100ms ease-in-out);
+
+		background: $cyan;
+		content:"";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 100%;
+  		z-index: -1;
+	}
 }
