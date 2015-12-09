@@ -1,6 +1,7 @@
 <div class="case-studies">
   <ul>
-    {% for case-study in site.case-studies %}
+  {% assign case_study_list = site.case-studies | sort:"weight" %}
+    {% for case-study in case_study_list %}
     <a href="{{ case-study.url }}">
       <li>
         <h1>{{ case-study.title }}</h1>
