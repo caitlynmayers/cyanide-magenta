@@ -2,7 +2,6 @@
   @include clearfix;
 
   border: 1px solid $dark-gray;
-  height: 500px;
   margin: 2.5rem;
   text-align: left;
 
@@ -30,10 +29,10 @@
   }
 
   .content {
-    padding: 0 4rem;
+    @include clearfix;
+
+    padding: 8rem 4rem;
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     width: 70%;
 
     h1 {
@@ -45,3 +44,10 @@
     }
   }
 }
+
+.-home {
+    background-image: url(/img/cm.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }

@@ -453,7 +453,6 @@ p {
 
 .feature-area {
   border: 1px solid #414042;
-  height: 500px;
   margin: 2.5rem;
   text-align: left; }
   .feature-area:after {
@@ -482,17 +481,23 @@ p {
         margin: 0 auto;
         height: 100%; }
   .feature-area .content {
-    padding: 0 4rem;
+    padding: 8rem 4rem;
     position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
     width: 70%; }
+    .feature-area .content:after {
+      content: "";
+      display: table;
+      clear: both; }
     .feature-area .content h1 {
       margin: 0; }
     .feature-area .content h2 {
       margin-bottom: 3rem; }
+
+.-home {
+  background-image: url(/img/cm.jpg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain; }
 
 nav {
   font-family: "trumpgothicpro";
