@@ -33,15 +33,6 @@ h1 {
 p {
   margin: 1em 0; }
 
-a {
-  color: #00a; }
-
-a:hover {
-  color: #000; }
-
-a:visited {
-  color: #a0a; }
-
 /*****************************************************************************/
 /*
 /* Home
@@ -509,14 +500,18 @@ nav {
   padding: 1.25rem 0;
   text-transform: uppercase; }
   nav a {
+    transition: all 120ms ease-in-out;
     letter-spacing: .1em;
-    padding: 1.5rem;
+    padding: 0 1.5rem 1rem 1.5rem;
     text-decoration: none; }
     nav a:hover {
+      border-bottom: 4px solid #ec008c;
       color: #ec008c; }
 
 .-header a {
   color: #4c5c65; }
+  .-header a:hover:visited {
+    color: #ec008c; }
 
 .-footer {
   background-color: #414042; }
@@ -526,7 +521,6 @@ button {
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
-  transition: all 100ms ease-in-out;
   background: none;
   border: 1px solid;
   cursor: pointer;
@@ -549,7 +543,7 @@ button {
   .-blue:hover:before {
     top: 0; }
   .-blue:before {
-    transition: all 100ms ease-in-out;
+    transition: all 120ms ease-in-out;
     background: #0095da;
     content: "";
     position: absolute;
@@ -563,8 +557,8 @@ footer {
   background-color: #414042; }
 
 .case-studies {
-  text-align: left;
-  margin: 1rem; }
+  margin: 1rem;
+  text-align: left; }
   .case-studies a {
     text-decoration: none; }
   .case-studies h1 {

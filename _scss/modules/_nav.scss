@@ -7,11 +7,14 @@ nav {
   text-transform: uppercase;
 
   a {
+    @include transition(all 120ms ease-in-out);
+
     letter-spacing: .1em;
-    padding: 1.5rem;
+    padding: 0 1.5rem 1rem 1.5rem;
     text-decoration: none;
 
     &:hover {
+      border-bottom: 4px solid $magenta;
       color: $magenta;
     }
   }
@@ -20,6 +23,12 @@ nav {
 .-header {
   a {
     color: $gray;
+
+    &:hover {
+      &:visited {
+        color: $magenta;
+      }
+    }
   }
 }
 

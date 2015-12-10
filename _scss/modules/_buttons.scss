@@ -1,7 +1,6 @@
 // Base Button Style
 button {
 	@include source-bold(18px, normal);
-	@include transition(all 100ms ease-in-out);
 
 	background: none;
 	border: 1px solid;
@@ -39,7 +38,7 @@ button {
 	}
 
 	&:before {
-		@include transition(all 100ms ease-in-out);
+		@include transition(all 120ms ease-in-out);
 
 		background: $cyan;
 		content:"";
