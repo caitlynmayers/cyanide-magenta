@@ -1,3 +1,22 @@
 footer {
+	@include border-color(#ffffff);
   background-color: $dark-gray;
+  padding: .5rem;
+
+  .icon {
+  	max-height: 30px;
+  }
+}
+
+.nav-bar {
+	// border: 1px solid #ffffff;
+	margin: 2.5rem;
+
+	.logo {
+		border-right: 1px solid #ffffff;
+	}
+}
+
+.-test {
+	border: 1px solid #ffffff;
 }

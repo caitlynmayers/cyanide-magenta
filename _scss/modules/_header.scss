@@ -10,22 +10,7 @@
       
       border-bottom: 1px solid $dark-gray;
       width: 100%;
-
-    .logo {
-      @include clearfix;
-
-      border-right: 1px solid $dark-gray;
-      float: left;
-      max-height: 65px;
-      margin: 0;
-      max-width: 280px;
-      width: 100%;
-
-      svg {
-        margin: 0 auto;
-        height: 100%;
-      }
-    }
+      
   }
 
   .content {

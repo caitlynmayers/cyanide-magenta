@@ -6,6 +6,13 @@
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
+  <div class="nav-bar -test">
+    <a href="/">
+      <div class="logo">
+        <svg viewBox="0 0 169 41">
+            <use xlink:href="{{ site.url }}/img/sprite.svg#logo-svg-footer"></use>
+        </svg>
+    </div>
 
   <nav class="-footer">
   {% assign pages_list = site.pages %}
@@ -17,13 +24,22 @@
         {% endif %}
       {% endfor %}
   </nav>
-    <span class="sidebar-nav-item"><a href="https://twitter.com/caitlynmayers">Twitter<a/></span>
-    <span class="sidebar-nav-item"><a href="https://dribbble.com/caitlynmayers">Dribbble<a/></span>
+    <a class="icon" href="https://twitter.com/caitlynmayers">
+      <svg viewBox="0 0 36.9 30">
+        <use xlink:href="{{ site.url }}/img/sprite.svg#twitter-icon"></use>
+      </svg>
+    <a/>
+    <a class="icon" href="https://dribbble.com/caitlynmayers">
+      <svg viewBox="0 0 30 30">
+        <use xlink:href="{{ site.url }}/img/sprite.svg#dribbble-icon"></use>
+      </svg>
+    <a/>
 
   <div>
     <p>
       &copy; {{ site.time | date: '%Y' }} Caitlyn Mayers. All rights reserved.
     </p>
+  </div>
   </div>
 
 </footer>

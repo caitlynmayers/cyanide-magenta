@@ -457,20 +457,6 @@ p {
       content: "";
       display: table;
       clear: both; }
-    .feature-area .wrapper .logo {
-      border-right: 1px solid #414042;
-      float: left;
-      max-height: 65px;
-      margin: 0;
-      max-width: 280px;
-      width: 100%; }
-      .feature-area .wrapper .logo:after {
-        content: "";
-        display: table;
-        clear: both; }
-      .feature-area .wrapper .logo svg {
-        margin: 0 auto;
-        height: 100%; }
   .feature-area .content {
     padding: 8rem 4rem;
     position: relative;
@@ -489,6 +475,21 @@ p {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: contain; }
+
+.logo {
+  border-right: 1px solid #414042;
+  float: left;
+  max-height: 65px;
+  margin: 0;
+  max-width: 280px;
+  width: 100%; }
+  .logo:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .logo svg {
+    margin: 0 auto;
+    height: 100%; }
 
 nav {
   font-family: "trumpgothicpro";
@@ -512,9 +513,6 @@ nav {
   color: #4c5c65; }
   .-header a:hover:visited {
     color: #ec008c; }
-
-.-footer {
-  background-color: #414042; }
 
 button {
   font-family: "source sans pro";
@@ -554,7 +552,19 @@ button {
     z-index: -1; }
 
 footer {
-  background-color: #414042; }
+  border-color: #ffffff;
+  background-color: #414042;
+  padding: .5rem; }
+  footer .icon {
+    max-height: 30px; }
+
+.nav-bar {
+  margin: 2.5rem; }
+  .nav-bar .logo {
+    border-right: 1px solid #ffffff; }
+
+.-test {
+  border: 1px solid #ffffff; }
 
 .case-studies {
   margin: 1rem;
