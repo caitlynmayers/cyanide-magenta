@@ -459,7 +459,7 @@ p {
   .feature-area .content {
     padding: 8rem 4rem;
     position: relative;
-    width: 70%; }
+    width: 55%; }
     .feature-area .content:after {
       content: "";
       display: table;
@@ -473,7 +473,8 @@ p {
   background-image: url(/img/cm.jpg);
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  padding-bottom: .25rem; }
 
 .-border--black {
   border: 1px solid #000000; }
