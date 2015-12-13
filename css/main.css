@@ -451,8 +451,7 @@ p {
     display: table;
     clear: both; }
   .feature-area .wrapper {
-    border-bottom: 1px solid #414042;
-    width: 100%; }
+    border-bottom: 1px solid #414042; }
     .feature-area .wrapper:after {
       content: "";
       display: table;
@@ -496,10 +495,16 @@ nav {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
-  float: right;
+  display: inline-block;
   height: 100%;
   padding: 1.25rem 0;
+  position: absolute;
+  right: 3rem;
   text-transform: uppercase; }
+  nav:after {
+    content: "";
+    display: table;
+    clear: both; }
   nav a {
     transition: all 120ms ease-in-out;
     letter-spacing: .1em;
@@ -509,10 +514,12 @@ nav {
       border-bottom: 4px solid #ec008c;
       color: #ec008c; }
 
-.-header a {
-  color: #4c5c65; }
-  .-header a:hover:visited {
-    color: #ec008c; }
+.-header {
+  float: right; }
+  .-header a {
+    color: #4c5c65; }
+    .-header a:hover:visited {
+      color: #ec008c; }
 
 button {
   font-family: "source sans pro";
@@ -552,19 +559,54 @@ button {
     z-index: -1; }
 
 footer {
-  border-color: #ffffff;
   background-color: #414042;
+  display: block;
   padding: .5rem; }
-  footer .icon {
-    max-height: 30px; }
+  footer:after {
+    content: "";
+    display: table;
+    clear: both; }
+  footer nav {
+    right: 13rem;
+    height: inherit;
+    padding-right: 1rem; }
+  footer ul {
+    display: inline-block;
+    float: right;
+    height: 100%;
+    list-style-type: none;
+    padding: 1.1rem 1.5rem 0 0; }
+    footer ul:after {
+      content: "";
+      display: table;
+      clear: both; }
+    footer ul li {
+      display: inline-block;
+      margin: 0 .75rem;
+      width: 30px; }
 
 .nav-bar {
   margin: 2.5rem; }
-  .nav-bar .logo {
-    border-right: 1px solid #ffffff; }
+  .nav-bar:after {
+    content: "";
+    display: table;
+    clear: both; }
 
-.-test {
+.-border--white {
   border: 1px solid #ffffff; }
+
+.-border-right--white {
+  border-right: 1px solid #ffffff; }
+
+.copyright {
+  font-family: "source sans pro";
+  font-weight: 400;
+  font-style: bold;
+  font-size: 14px;
+  color: #a7a7a7;
+  margin-left: 2.5rem;
+  text-align: left;
+  text-transform: uppercase; }
 
 .case-studies {
   margin: 1rem;

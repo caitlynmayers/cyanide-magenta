@@ -1,9 +1,12 @@
 nav {
+  @include clearfix;
   @include trump-bold(20px, normal)
 
-  float: right;
+  display: inline-block;
   height: 100%;
   padding: 1.25rem 0;
+  position: absolute;
+  right: 3rem;
   text-transform: uppercase;
 
   a {
@@ -21,6 +24,8 @@ nav {
 }
 
 .-header {
+  float: right;
+
   a {
     color: $gray;
 

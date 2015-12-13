@@ -1,22 +1,53 @@
 footer {
-	@include border-color(#ffffff);
-  background-color: $dark-gray;
-  padding: .5rem;
+	@include clearfix;
 
-  .icon {
-  	max-height: 30px;
-  }
-}
+	background-color: $dark-gray;
+	display: block;
+	padding: .5rem;
 
-.nav-bar {
-	// border: 1px solid #ffffff;
-	margin: 2.5rem;
+	nav {
+		right: 13rem;
+		height: inherit;
+		padding-right: 1rem;
+	}
 
-	.logo {
-		border-right: 1px solid #ffffff;
+	ul {
+		@include clearfix;
+
+		display: inline-block;
+		float: right;
+		height: 100%;
+		list-style-type: none;
+		padding: 1.1rem 1.5rem 0 0;
+
+		li {
+			display: inline-block;
+			margin: 0 .75rem;
+			width: 30px;
+		}
 	}
 }
 
-.-test {
+.nav-bar {
+	@include clearfix;
+
+	margin: 2.5rem;
+}
+
+.-border--white {
 	border: 1px solid #ffffff;
+}
+
+.-border-right--white {
+	border-right: 1px solid #ffffff;
+}
+
+.copyright {
+	@include source-reg(14px, bold);
+
+	color: #a7a7a7;
+	margin-left: 2.5rem;
+	text-align: left;
+	text-transform: uppercase;
+
 }
