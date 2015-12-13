@@ -51,10 +51,18 @@ h1 {
 }
 
 h2 {
-  @include source-xl(24px, normal);
+  @include source-xl(22px, normal);
 
   color: $dark-gray;
   letter-spacing: .05em;
+}
+
+h5 {
+  @include source-xl(18px, bold);
+
+  color: $light-gray;
+  letter-spacing: .15em;
+  text-transform: uppercase;
 }
 
 p {

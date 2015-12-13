@@ -3,12 +3,16 @@
   {% assign case_study_list = site.case-studies | sort:"weight" %}
     {% for case-study in case_study_list %}
       {% if case-study.tags contains "featured" %}
-      <li>
+      <li style="background-image:url({{ case-study.image }});">
+        <a href="{{ case-study.url }}">
         <div class="wrapper">
-        <h1>{{ case-study.title }}</h1>
-        <p>{{ case-study.categories }}</p>
-        <a href="{{ case-study.url }}">View Case Study</a>
+          <h1>{{ case-study.title }}</h1>
+          <h5>{{ case-study.categories }}</h5>
         </div>
+        <div class="action">
+        <button class="-white"><a href="{{ case-study.url }}">View Case Study</a></button>
+        </div>
+        </a>
       </li>
       {% endif %}
     {% endfor %}

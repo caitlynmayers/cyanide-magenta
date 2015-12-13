@@ -430,9 +430,18 @@ h2 {
   font-family: "source sans pro";
   font-weight: 200;
   font-style: normal;
-  font-size: 24px;
+  font-size: 22px;
   color: #414042;
   letter-spacing: .05em; }
+
+h5 {
+  font-family: "source sans pro";
+  font-weight: 200;
+  font-style: bold;
+  font-size: 18px;
+  color: #a7a7a7;
+  letter-spacing: .15em;
+  text-transform: uppercase; }
 
 p {
   font-family: "source sans pro";
@@ -565,6 +574,25 @@ button {
     top: 100%;
     z-index: -1; }
 
+.-white {
+  border-color: white; }
+  .-white a {
+    color: white; }
+  .-white:hover a {
+    color: #0095da; }
+  .-white:hover:before {
+    top: 0; }
+  .-white:before {
+    transition: all 120ms ease-in-out;
+    background: #ffffff;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1; }
+
 footer {
   background-color: #414042;
   display: block;
@@ -626,35 +654,47 @@ footer {
     .case-studies ul li {
       padding: 2rem 6rem; }
 
-.-featured h1 {
-  color: white; }
-
-.-featured ul li {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  float: left;
-  padding: 2.6rem 2.6rem 10rem 2.6rem;
-  width: 50%; }
-  .-featured ul li:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .-featured ul li:first-child {
-    background-image: url(/img/fullorchestra.jpg); }
-  .-featured ul li:last-child {
-    background-image: url(/img/fullorchestra.jpg);
-    float: right; }
-    .-featured ul li:last-child:after {
-      content: "";
-      display: table;
-      clear: both; }
-
-.-featured p {
-  color: #a7a7a7;
-  text-transform: uppercase; }
-
-.-featured .wrapper {
-  background-color: rgba(64, 62, 65, 0.9);
-  padding: 3rem;
-  width: 100%; }
+.-featured {
+  max-height: 450px;
+  height: 100%; }
+  .-featured h1 {
+    color: white; }
+  .-featured ul {
+    height: inherit; }
+    .-featured ul li {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      float: left;
+      height: inherit;
+      padding: 2.6rem;
+      width: 50%; }
+      .-featured ul li:after {
+        content: "";
+        display: table;
+        clear: both; }
+      .-featured ul li:last-child {
+        float: right; }
+        .-featured ul li:last-child:after {
+          content: "";
+          display: table;
+          clear: both; }
+      .-featured ul li:hover .action {
+        max-height: 100%;
+        padding: 2.6rem; }
+        .-featured ul li:hover .action button {
+          display: block;
+          width: 100%; }
+  .-featured .wrapper {
+    background-color: rgba(64, 62, 65, 0.9);
+    border-bottom: 1px solid #0095da;
+    padding: 3rem;
+    width: 65%; }
+  .-featured .action {
+    transition: all 120ms ease-in-out;
+    background-color: rgba(0, 150, 219, 0.9);
+    max-height: 0;
+    text-align: center;
+    width: 65%; }
+    .-featured .action button {
+      display: none; }

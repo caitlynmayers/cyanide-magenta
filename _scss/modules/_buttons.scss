@@ -50,3 +50,35 @@ button {
   		z-index: -1;
 	}
 }
+
+.-white {
+	border-color: white;
+
+	a {
+		color: white;
+	}
+
+
+	&:hover {
+		a {
+			color: $cyan;
+		}
+
+		&:before {
+			top: 0;
+		}
+	}
+
+	&:before {
+		@include transition(all 120ms ease-in-out);
+
+		background: #ffffff;
+		content:"";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 100%;
+  		z-index: -1;
+	}
+}
