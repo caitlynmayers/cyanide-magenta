@@ -2,6 +2,7 @@
 layout: page
 title: Richmond Symphony
 category: Website Design
+tags: [featured]
 weight: 1
 ---
 

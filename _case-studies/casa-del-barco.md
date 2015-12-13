@@ -2,7 +2,7 @@
 layout: page
 title: Casa del Barco
 category: Branding
-tags: [environmental design, print design]
+tags: featured
 weight: 2
 ---
 
