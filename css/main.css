@@ -614,7 +614,6 @@ footer {
     text-transform: uppercase; }
 
 .case-studies {
-  margin: 1rem;
   text-align: left; }
   .case-studies a {
     text-decoration: none; }
@@ -626,3 +625,36 @@ footer {
     list-style-type: none; }
     .case-studies ul li {
       padding: 2rem 6rem; }
+
+.-featured h1 {
+  color: white; }
+
+.-featured ul li {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  padding: 2.6rem 2.6rem 10rem 2.6rem;
+  width: 50%; }
+  .-featured ul li:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .-featured ul li:first-child {
+    background-image: url(/img/fullorchestra.jpg); }
+  .-featured ul li:last-child {
+    background-image: url(/img/fullorchestra.jpg);
+    float: right; }
+    .-featured ul li:last-child:after {
+      content: "";
+      display: table;
+      clear: both; }
+
+.-featured p {
+  color: #a7a7a7;
+  text-transform: uppercase; }
+
+.-featured .wrapper {
+  background-color: rgba(64, 62, 65, 0.9);
+  padding: 3rem;
+  width: 100%; }

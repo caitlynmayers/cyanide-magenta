@@ -1,15 +1,16 @@
-<div class="case-studies">
+<section class="case-studies -featured">
   <ul>
   {% assign case_study_list = site.case-studies | sort:"weight" %}
     {% for case-study in case_study_list %}
       {% if case-study.tags contains "featured" %}
-      <a href="{{ case-study.url }}">
-        <li>
-          <h1>{{ case-study.title }}</h1>
-          <p>{{ case-study.categories }}</p>
-        </li>
-      </a>
+      <li>
+        <div class="wrapper">
+        <h1>{{ case-study.title }}</h1>
+        <p>{{ case-study.categories }}</p>
+        <a href="{{ case-study.url }}">View Case Study</a>
+        </div>
+      </li>
       {% endif %}
     {% endfor %}
   </ul>
-</div>
+</section>
