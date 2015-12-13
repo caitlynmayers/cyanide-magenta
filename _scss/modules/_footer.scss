@@ -48,7 +48,7 @@ footer {
 	.copyright {
 		@include source-reg(14px, bold);
 
-		color: #a7a7a7;
+		color: $light-gray;
 		margin-left: 2.5rem;
 		text-align: left;
 		text-transform: uppercase;
