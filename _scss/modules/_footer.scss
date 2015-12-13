@@ -9,6 +9,10 @@ footer {
 		right: 13rem;
 		height: inherit;
 		padding-right: 1rem;
+
+		a {
+			color: white;
+		}
 	}
 
 	ul {
@@ -26,28 +30,28 @@ footer {
 			width: 30px;
 		}
 	}
-}
+	
+	.nav-bar {
+		@include clearfix;
 
-.nav-bar {
-	@include clearfix;
+		margin: 2.5rem;
+	}
 
-	margin: 2.5rem;
-}
+	.-border--white {
+		border: 1px solid #ffffff;
+	}
 
-.-border--white {
-	border: 1px solid #ffffff;
-}
+	.-border-right--white {
+		border-right: 1px solid #ffffff;
+	}
 
-.-border-right--white {
-	border-right: 1px solid #ffffff;
-}
+	.copyright {
+		@include source-reg(14px, bold);
 
-.copyright {
-	@include source-reg(14px, bold);
+		color: #a7a7a7;
+		margin-left: 2.5rem;
+		text-align: left;
+		text-transform: uppercase;
 
-	color: #a7a7a7;
-	margin-left: 2.5rem;
-	text-align: left;
-	text-transform: uppercase;
-
+	}
 }

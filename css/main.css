@@ -475,6 +475,12 @@ p {
   background-repeat: no-repeat;
   background-size: contain; }
 
+.-border--black {
+  border: 1px solid #000000; }
+
+.-border-right--black {
+  border-right: 1px solid #000000; }
+
 .logo {
   border-right: 1px solid #414042;
   float: left;
@@ -570,6 +576,8 @@ footer {
     right: 13rem;
     height: inherit;
     padding-right: 1rem; }
+    footer nav a {
+      color: white; }
   footer ul {
     display: inline-block;
     float: right;
@@ -584,29 +592,25 @@ footer {
       display: inline-block;
       margin: 0 .75rem;
       width: 30px; }
-
-.nav-bar {
-  margin: 2.5rem; }
-  .nav-bar:after {
-    content: "";
-    display: table;
-    clear: both; }
-
-.-border--white {
-  border: 1px solid #ffffff; }
-
-.-border-right--white {
-  border-right: 1px solid #ffffff; }
-
-.copyright {
-  font-family: "source sans pro";
-  font-weight: 400;
-  font-style: bold;
-  font-size: 14px;
-  color: #a7a7a7;
-  margin-left: 2.5rem;
-  text-align: left;
-  text-transform: uppercase; }
+  footer .nav-bar {
+    margin: 2.5rem; }
+    footer .nav-bar:after {
+      content: "";
+      display: table;
+      clear: both; }
+  footer .-border--white {
+    border: 1px solid #ffffff; }
+  footer .-border-right--white {
+    border-right: 1px solid #ffffff; }
+  footer .copyright {
+    font-family: "source sans pro";
+    font-weight: 400;
+    font-style: bold;
+    font-size: 14px;
+    color: #a7a7a7;
+    margin-left: 2.5rem;
+    text-align: left;
+    text-transform: uppercase; }
 
 .case-studies {
   margin: 1rem;

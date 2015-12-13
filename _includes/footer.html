@@ -1,9 +1,6 @@
-<h1>Footer</h1>
-
 <footer>
-
   {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
+      The code below dynamically generates a nav of pages with
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
   <div class="nav-bar -border--white">
@@ -14,53 +11,34 @@
         </svg>
       </div>
     </a>
-
-  <nav class="-border-right--white">
-  {% assign pages_list = site.pages | sort:"weight" %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+    <nav class="-border-right--white">
+    {% assign pages_list = site.pages | sort:"weight" %}
+        {% for node in pages_list %}
+          {% if node.title != null %}
+            {% if node.layout == "page" %}
+              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            {% endif %}
           {% endif %}
-        {% endif %}
-      {% endfor %}
-  </nav>
-  <ul>
-    <li>
-      <a href="https://twitter.com/caitlynmayers">
-          <svg viewBox="0 0 36.9 30">
-            <use xlink:href="{{ site.url }}/img/sprite.svg#twitter-icon"></use>
-          </svg>
-        </a>
-    </li>
-    <li>
-      <a href="https://dribbble.com/caitlynmayers">
-          <svg viewBox="0 0 30 30">
-            <use xlink:href="{{ site.url }}/img/sprite.svg#dribbble-icon"></use>
-          </svg>
-        </a>
-    </li>
-  </ul>
-    {% comment %}<ul class="icons">
-      <li class="icon">
+        {% endfor %}
+    </nav>
+    <ul>
+      <li>
         <a href="https://twitter.com/caitlynmayers">
-          <svg viewBox="0 0 36.9 30">
-            <use xlink:href="{{ site.url }}/img/sprite.svg#twitter-icon"></use>
-          </svg>
-        </a>
+            <svg viewBox="0 0 36.9 30">
+              <use xlink:href="{{ site.url }}/img/sprite.svg#twitter-icon"></use>
+            </svg>
+          </a>
       </li>
-      <li class="icon">
+      <li>
         <a href="https://dribbble.com/caitlynmayers">
-          <svg viewBox="0 0 30 30">
-            <use xlink:href="{{ site.url }}/img/sprite.svg#dribbble-icon"></use>
-          </svg>
-        </a>
+            <svg viewBox="0 0 30 30">
+              <use xlink:href="{{ site.url }}/img/sprite.svg#dribbble-icon"></use>
+            </svg>
+          </a>
       </li>
-    </ul>{% endcomment %}
+    </ul>
   </div>
-  <div>
-    <p class="copyright">
-      &copy; {{ site.time | date: '%Y' }} Caitlyn Mayers
-    </p>
-  </div>
+  <p class="copyright">
+    &copy; {{ site.time | date: '%Y' }} Caitlyn Mayers
+  </p>
 </footer>
