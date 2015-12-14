@@ -736,8 +736,10 @@ footer {
           content: "";
           display: table;
           clear: both; }
-        .featured-posts ul li .post h3:hover {
-          color: #0095da; }
+        .featured-posts ul li .post h3 {
+          transition: all 120ms ease-in-out; }
+          .featured-posts ul li .post h3:hover {
+            color: #0095da; }
         .featured-posts ul li .post a {
           text-decoration: none; }
         .featured-posts ul li .post button {
