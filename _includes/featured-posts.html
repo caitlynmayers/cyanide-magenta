@@ -1,0 +1,14 @@
+<section class="featured-posts">
+  <h3>Recent Thoughts</h3>
+  <ul>
+    {% for post in site.posts | limit:3 %}
+      <li>
+        <div class="post">
+          <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+          {{ post.excerpt | truncatewords: 40 }}</p>
+          <button class="-blue"><a href="{{ post.url }}">Read More</a></button>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

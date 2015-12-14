@@ -434,6 +434,15 @@ h2 {
   color: #414042;
   letter-spacing: .05em; }
 
+h3 {
+  font-family: "trumpgothicpro";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  color: #414042;
+  letter-spacing: .05em;
+  text-transform: uppercase; }
+
 h5 {
   font-family: "source sans pro";
   font-weight: 200;
@@ -698,3 +707,38 @@ footer {
     width: 65%; }
     .-featured .action button {
       display: none; }
+
+.featured-posts {
+  margin: 3rem;
+  text-align: left; }
+  .featured-posts ul {
+    list-style-type: none;
+    margin-top: 2rem;
+    width: 100%; }
+    .featured-posts ul:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .featured-posts ul li {
+      display: inline-block;
+      float: left;
+      width: 33.3%; }
+      .featured-posts ul li:first-child {
+        padding-right: 1%; }
+      .featured-posts ul li:nth-child(2) {
+        padding: 0 1%; }
+      .featured-posts ul li:last-child {
+        padding-left: 1%; }
+      .featured-posts ul li .post {
+        border: 1px solid black;
+        padding: 3rem; }
+        .featured-posts ul li .post:after {
+          content: "";
+          display: table;
+          clear: both; }
+        .featured-posts ul li .post h3:hover {
+          color: #0095da; }
+        .featured-posts ul li .post a {
+          text-decoration: none; }
+        .featured-posts ul li .post button {
+          margin-top: 2rem; }
