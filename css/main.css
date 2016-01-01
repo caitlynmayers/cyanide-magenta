@@ -711,36 +711,29 @@ footer {
 .featured-posts {
   margin: 3rem;
   text-align: left; }
-  .featured-posts ul {
-    list-style-type: none;
-    margin-top: 2rem;
-    width: 100%; }
-    .featured-posts ul:after {
-      content: "";
-      display: table;
-      clear: both; }
-    .featured-posts ul li {
-      display: inline-block;
-      float: left;
-      width: 33.3%; }
-      .featured-posts ul li:first-child {
-        padding-right: 1%; }
-      .featured-posts ul li:nth-child(2) {
-        padding: 0 1%; }
-      .featured-posts ul li:last-child {
-        padding-left: 1%; }
-      .featured-posts ul li .post {
-        border: 1px solid black;
-        padding: 3rem; }
-        .featured-posts ul li .post:after {
-          content: "";
-          display: table;
-          clear: both; }
-        .featured-posts ul li .post h3 {
-          transition: all 120ms ease-in-out; }
-          .featured-posts ul li .post h3:hover {
-            color: #0095da; }
-        .featured-posts ul li .post a {
-          text-decoration: none; }
-        .featured-posts ul li .post button {
-          margin-top: 2rem; }
+  .featured-posts .post-wrapper {
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    margin-top: 2rem; }
+  .featured-posts .post {
+    border: 1px solid black;
+    padding: 3rem;
+    width: 32%; }
+    .featured-posts .post h3 {
+      transition: all 120ms ease-in-out; }
+      .featured-posts .post h3:hover {
+        color: #0095da; }
+    .featured-posts .post a {
+      text-decoration: none; }
+    .featured-posts .post button {
+      margin-top: 2rem; }
