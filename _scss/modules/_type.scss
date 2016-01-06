@@ -1,5 +1,5 @@
 // Import Source Sans
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,400italic,700,700italic');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,200italic,400italic,600italic,700italic');
 
 // Type Variables
 $source: 'source sans pro';
@@ -16,6 +16,13 @@ $trump: 'trumpgothicpro';
 @mixin source-reg($size, $style) {
   font-family: $source;
   font-weight: 400;
+  font-style: $style;
+  font-size: $size;
+}
+
+@mixin source-semi($size, $style) {
+  font-family: $source;
+  font-weight: 600;
   font-style: $style;
   font-size: $size;
 }
@@ -63,6 +70,13 @@ h3 {
   color: $dark-gray;
   letter-spacing: .05em;
   text-transform: uppercase;
+}
+
+h4 {
+  @include source-semi(26px, italic);
+
+  color: $cyan;
+  letter-spacing: .05em;
 }
 
 h5 {

@@ -1,0 +1,16 @@
+.body {
+  margin: 4rem 0 4rem 6rem;
+  text-align: left;
+  width: 55%;
+
+  a {
+    @include transition(all 120ms ease-in-out);
+
+    color: $magenta;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($magenta, 20%);
+    }
+  }
+}

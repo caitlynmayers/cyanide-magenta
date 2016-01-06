@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,400italic,700,700italic");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,200italic,400italic,600italic,700italic");
 html {
   box-sizing: border-box; }
 
@@ -443,6 +443,14 @@ h3 {
   letter-spacing: .05em;
   text-transform: uppercase; }
 
+h4 {
+  font-family: "source sans pro";
+  font-weight: 600;
+  font-style: italic;
+  font-size: 26px;
+  color: #0095da;
+  letter-spacing: .05em; }
+
 h5 {
   font-family: "source sans pro";
   font-weight: 200;
@@ -737,3 +745,14 @@ footer {
       text-decoration: none; }
     .featured-posts .post button {
       margin-top: 2rem; }
+
+.body {
+  margin: 4rem 0 4rem 6rem;
+  text-align: left;
+  width: 55%; }
+  .body a {
+    transition: all 120ms ease-in-out;
+    color: #ec008c;
+    text-decoration: none; }
+    .body a:hover {
+      color: #86004f; }

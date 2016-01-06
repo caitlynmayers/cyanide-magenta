@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Blog
+heading: Blog
+subheading: This is a test.
 weight: 3
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Contact
+heading: Contact Me
+subheading: Holla atcho girl.
 weight: 4
 ---
 
