@@ -87,6 +87,13 @@ h5 {
   text-transform: uppercase;
 }
 
+h6 {
+  @include source-xl(22px, normal);
+
+  color: $dark-gray;
+  letter-spacing: .05em;
+}
+
 p {
   @include source-xl(20px, normal);
 

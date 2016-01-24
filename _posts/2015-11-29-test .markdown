@@ -1,23 +1,9 @@
 ---
 layout: post
 title:  "The Design/Browser Landscape"
-date:   2015-11-29 09:11:03
-categories: jekyll update
+date:   2014-11-26 09:11:03
+categories: data analysis
 ---
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+I recently wrote a blog post as a part of continued data analysis for my company, [CO+LAB](https://www.teamcolab.com), that details the data I uncovered about how people are using the websites we build. I was fascinated by the data and was surprised at how consistent the numbers were. I'm a big data nerd, so information like this is always something that interests me, and I thought I'd share it here in case you are as interested in the data as I am.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+[The State of the Internet: Q3 '14](https://www.teamcolab.com/blog/state-of-internet-q3-2014/)
