@@ -1,15 +1,44 @@
-.logo {
-  @include clearfix;
-
-  border-right: 1px solid $dark-gray;
-  float: left;
-  max-height: 65px;
-  margin: 0;
-  max-width: 280px;
+form {
   width: 100%;
 
-  svg {
-    margin: 0 auto;
-    height: 100%;
+  label {
+    @include source-semi(16px, normal);
+
+    color: $dark-gray;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+  }
+
+  input, textarea {
+    @include source-xl(16px, normal)
+    
+    margin: .75rem 0 1.5rem 0;
+    padding: 1rem;
+    width: 100%;
+
+    &:focus {
+      border: 1px solid $magenta;
+      outline: none;
+    }
+  }
+
+  input {
+    // @include source-xl(16px, normal)
+
+    // margin: .75rem 0 1.5rem 0;
+    // padding: 1rem;
+    // width: 100%;
+
+    &[type=text], &[type=email] {
+      height: 50px;
+    }
+  }
+
+  textarea {
+    border: 1px solid #DADADA;
+    height: 10rem;
+    margin-bottom: 2rem;
+    // padding: 0 0 0 1rem;
+    // width: 100%;
   }
 }

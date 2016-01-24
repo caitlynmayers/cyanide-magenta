@@ -571,6 +571,10 @@ button {
   z-index: 1; }
   button a {
     text-decoration: none; }
+  button[type=submit] {
+    color: #0095da; }
+    button[type=submit]:hover {
+      color: white; }
 
 .-blue {
   border-color: #0095da; }
@@ -757,17 +761,30 @@ footer {
     .body a:hover {
       color: #86004f; }
 
-.logo {
-  border-right: 1px solid #414042;
-  float: left;
-  max-height: 65px;
-  margin: 0;
-  max-width: 280px;
+form {
   width: 100%; }
-  .logo:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .logo svg {
-    margin: 0 auto;
-    height: 100%; }
+  form label {
+    font-family: "source sans pro";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #414042;
+    letter-spacing: .15em;
+    text-transform: uppercase; }
+  form input, form textarea {
+    font-family: "source sans pro";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    margin: .75rem 0 1.5rem 0;
+    padding: 1rem;
+    width: 100%; }
+    form input:focus, form textarea:focus {
+      border: 1px solid #ec008c;
+      outline: none; }
+  form input[type=text], form input[type=email] {
+    height: 50px; }
+  form textarea {
+    border: 1px solid #DADADA;
+    height: 10rem;
+    margin-bottom: 2rem; }

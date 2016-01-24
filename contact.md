@@ -10,8 +10,11 @@ weight: 4
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='http://localhost:3000/contact-thanks.html' />
   <!-- all your input fields here.... -->
-  <input type='text' name='Name' />
-  <input type='text' name='Email' />
-  <input type='textarea' name='Message' />
-  <input type='submit' value='Submit Message' />
+  <label for='Name'>Name</label>
+  <input type='text' name='Name'/>
+  <label for='Email'>Email</label>
+  <input type='email' name='Email' />
+  <label for='Message'>Message</label>
+  <textarea name='Message'></textarea>
+  <button class="-blue" type='submit' value='Submit Message'>Submit Message</button>
 </form>

@@ -16,6 +16,14 @@ button {
 	a {
 		text-decoration: none;
 	}
+
+	&[type=submit] {
+		color: $cyan;
+
+		&:hover {
+			color: white;
+		}
+  	}
 }
 
 // Button Modifiers
