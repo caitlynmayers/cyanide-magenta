@@ -756,3 +756,18 @@ footer {
     text-decoration: none; }
     .body a:hover {
       color: #86004f; }
+
+.logo {
+  border-right: 1px solid #414042;
+  float: left;
+  max-height: 65px;
+  margin: 0;
+  max-width: 280px;
+  width: 100%; }
+  .logo:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .logo svg {
+    margin: 0 auto;
+    height: 100%; }
