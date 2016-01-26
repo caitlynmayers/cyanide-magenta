@@ -476,6 +476,14 @@ p {
   letter-spacing: .05em;
   line-height: 30px; }
 
+blockquote {
+  font-family: "source sans pro";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+  color: #0095da;
+  padding: 1rem; }
+
 .feature-area {
   border: 1px solid #414042;
   margin: 2.5rem;

@@ -2,7 +2,7 @@
 layout: post
 title:  "Tabs vs. Spaces"
 date:   2015-07-29 09:11:03
-categories: jekyll update
+categories: design development
 ---
 A few weeks ago, I was introduced to the whole Tabs vs. Spaces debate at our bi-weekly Front-end Dev meeting. I’ll admit — I had to Google the debate to fully understand what was causing such strong opinions to be held and I had a conversation with my husband Andrew, who is a developer, and I said I should just make t-shirts and let that be the deciding factor.
 

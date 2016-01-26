@@ -100,3 +100,10 @@ p {
   letter-spacing: .05em;
   line-height: 30px;
 }
+
+blockquote {
+  @include source-xl(30px, normal);
+
+  color: $cyan;
+  padding: 1rem;
+}
