@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "The 4G Farce"
+date:   2011-07-10 08:00:00
+categories: technology
+---
+
+I received an email from a friend from high school and college, Brody Wiedemann, asking about 4G vs. LTE. Brody's a new blogger and you can check out his blog for some entertaining tidbits. Here's his email:
+
+I was looking at your blog and I love the stuff you do about logos, and I was curious what you thought of Verizon's 4G LTE vs. Sprint's 4G. Not necessarily their logos per say but their names.  I'm not going to argue which is faster because I don't know, but as a consumer, when I see "LTE" I think "light" and therefore I associate Verizon's 4G as being a weaker counterpart to Sprint's 4G. I think by Sprint just being simple and saying 4G they come out as looking better. No thrills, no gimics, just 4G. I mean the letter "G" by itself is basically another word for gangster and would anybody say, "Buy our 4Gangster Light phone!"?"
+
+Here's the deal with 4G (you can see where I get my figures from in [this article](http://www.marketwatch.com/story/the-4g-lie-2010-11-05) and on [Wikipedia](http://en.wikipedia.org/wiki/4G)</a>).
+
+4G, as we know it, is a lie. When Sprint first started advertising their first 4G phone, the Evo, 4G's protocols hadn't been officially established yet. The article on Wikipedia lists the requirements from 4G technology, and the Marketwatch article does a great job of highlighting the key points.
+
+* A nominal data rate of 100 Mbps while the client physically moves at high speeds relative to the station, and 1 Gbps while client and station are in relatively fixed positions as defined by the ITU-R.
+* A data rate of at least 100 Mbps between any two points in the world.
+
+There is no cell phone provider at the moment that comes even close to those figures. Their "4G" networks are topping out right now in the low teens Mbps, a far cry from the 100 the standard requires.
+
+When it boils down to it, there really is no such product available as 4G. The companies are using 4G to advertise faster speeds because consumers identify the best speed standards with the G nomenclature. I understand why they're marketing their products the way they are, but when it boils down to it, they're guilty of false advertising.
+
+As far as LTE is concerned, it stands for Long Term Evolution, which is more a more accurate description of the product they're selling you. LTE standards are essentially VOIP for cell phones, and LTE encompasses what we're currently experiencing on our phones, as well as what we'll be increasing to in the future.
+
+In the positioning battle of 4G vs. LTE, 4G wins. People already associate the best product with the G network speed determination. If you'll remember the Ozzy Osborne/Justin Bieber superbowl commercial from 2011...
+<iframe src="http://www.youtube.com/embed/RVJ91W4ZRhw" height="298" width="529"></iframe>
+
+I think the battle for network domination is going to change, though. I am a diehard Apple fangirl, but I'm not trying to let that bias my thoughts on this matter. Here's how I think cell phones are going to change in the next 5 years:
+
+I think Apple is going to open up the iPhone to all carriers, as much as possible. At that point, it's really going to be up to the carriers to sell the phones. In our current cell phone provider market there isn't any real competition between carriers. They offer similar phones at similar prices with similarly tiered plans for data and voice. With the LTE technology, I think there will no longer be separate data and voice plans. I think all cellular communications will be solely on data plans, while the carriers may still try to sell data and voice plans to somewhat rip you off, there won't be any physical difference between voice or data communications.
+
+I really do believe that Apple's iPhone will be the hardware to drive this process. You can talk marketshare, etc. all day long, but I think the reality is that the demand for the iPhone has a much stronger backing, and a much stronger creator to push for progress in how much we pay for how we communicate.
+
+I think we're getting ripped off right now by our cell phone providers. I think the tiered plans and lack of unlimited data upon us are ridiculous. The fact that I have to pay extra for tethering is frustrating. But, the beauty of technology is that there is always progress.
+
+So, when it boils down to it, 4G is the better selling point, but LTE is the more accurate moniker for the cellular technology of the future.
+
+For the record, I'd by a 4Gangsta plan any day.
