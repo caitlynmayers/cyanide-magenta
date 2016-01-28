@@ -2,6 +2,7 @@ name: Cyanide + Magenta
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+gems: [jekyll-paginate]
 paginate: 8
 paginate_path: "/blog/page:num/"
 collections:
