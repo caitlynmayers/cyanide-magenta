@@ -766,6 +766,26 @@ footer {
     .featured-posts .post button {
       margin-top: 2rem; }
 
+.posts {
+  text-align: left; }
+  .posts button {
+    margin-top: 2rem; }
+    .posts button a {
+      color: #0095da; }
+      .posts button a:hover {
+        color: white; }
+  .posts h3 {
+    border-bottom: 1px solid #d0d0d0;
+    line-height: 2.25rem;
+    padding-bottom: 1.5rem; }
+  .posts p {
+    margin: 0;
+    padding-top: .75rem; }
+  .posts ul {
+    list-style-type: none; }
+    .posts ul li {
+      padding: 3rem; }
+
 .body {
   margin: 4rem 0 4rem 6rem;
   text-align: left;

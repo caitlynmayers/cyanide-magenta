@@ -1,3 +1,5 @@
+// Styles for Featured Posts on Home Page
+
 .featured-posts {
   margin: 3rem;
   text-align: left;
@@ -29,6 +31,43 @@
 
     button {
       margin-top: 2rem;
+    }
+  }
+}
+
+// Styles for Post List on Blog Page
+
+.posts {
+  text-align: left;
+
+  button {
+    margin-top: 2rem;
+
+    a {
+      color: $cyan;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  h3 {
+    border-bottom: 1px solid #d0d0d0;
+    line-height: 2.25rem;
+    padding-bottom: 1.5rem;
+  }
+
+  p {
+    margin: 0;
+    padding-top: .75rem;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+      padding: 3rem;
     }
   }
 }

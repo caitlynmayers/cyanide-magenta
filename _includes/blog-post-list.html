@@ -1,0 +1,11 @@
+<section class="posts">
+  {% for post in site.posts %}
+  <ul>
+    <li>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt | truncatewords: 40 }}</p>
+      <button class="-blue"><a href="{{ post.url }}">Keep Reading</a></button>
+    </li>
+    </ul>
+  {% endfor %}
+</section>
