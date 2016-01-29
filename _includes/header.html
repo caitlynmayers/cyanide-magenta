@@ -1,38 +1,39 @@
-<div class="feature-area">
-  <div class="wrapper">
-    <a href="/">
-      <div class="logo">
-        <svg viewBox="0 0 169 41">
-            <use xlink:href="{{ site.url }}/img/sprite.svg#logo-svg-header"></use>
-        </svg>
-    </div>
-    </a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-    <nav class="-header">
-    {% assign pages_list = site.pages | sort:"weight" %}
-        {% for node in pages_list %}
-          {% if node.title != null %}
-            {% if node.layout == "page" %}
-              <a href="{{ node.url }}">{{ node.title }}</a>
-            {% endif %}
+<header>
+  <div class="feature-area">
+    <div class="wrapper">
+      <a href="/">
+        <div class="logo">
+          <svg viewBox="0 0 169 41">
+              <use xlink:href="{{ site.url }}/img/sprite.svg#logo-svg-header"></use>
+          </svg>
+      </div>
+      </a>
+      <nav class="-header">
+      {% assign pages_list = site.pages | sort:"weight" %}
+      {% for node in pages_list %}
+        {% if node.title != null and node.layout =="page" %} 
+          {% assign shouldDisplay = true %}
+          {% if previousNode != null and previousNode.title == node.title %}
+            {% assign shouldDisplay = false %}
           {% endif %}
-        {% endfor %}
-    </nav>
-  </div>
-  <div class="content">
-    <div>
-      {% if node.layout == "page" %}
-        <h1>{{ page.heading }}</h1>
-        <h2>{{ page.subheading }}</h2>
-      {% else %}
-        <h1>{{ page.title }}</h1>
-        <h2>{{ page.date }}</h2>
-      {% endif %}
+          {% if shouldDisplay == true %}
+            <a href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+          {% assign previousNode = node %}
+        {% endif %}
+      {% endfor %}
+      </nav>
+    </div>
+    <div class="content">
+      <div>
+        {% if node.layout == "page" %}
+          <h1>{{ page.heading }}</h1>
+          <h2>{{ page.subheading }}</h2>
+        {% else %}
+          <h1>{{ page.title }}</h1>
+          <h2>{{ page.date }}</h2>
+        {% endif %}
+      </div>
     </div>
   </div>
-</div>
+</header>
