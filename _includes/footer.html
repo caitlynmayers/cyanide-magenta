@@ -13,13 +13,18 @@
     </a>
     <nav class="-border-right--white">
     {% assign pages_list = site.pages | sort:"weight" %}
-        {% for node in pages_list %}
-          {% if node.title != null %}
-            {% if node.layout == "page" %}
-              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-            {% endif %}
+      {% for node in pages_list %}
+        {% if node.title != null and node.layout =="page" %} 
+          {% assign shouldDisplay = true %}
+          {% if previousNode != null and previousNode.title == node.title %}
+            {% assign shouldDisplay = false %}
           {% endif %}
-        {% endfor %}
+          {% if shouldDisplay == true %}
+            <a href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+          {% assign previousNode = node %}
+        {% endif %}
+      {% endfor %}
     </nav>
     <ul>
       <li>
