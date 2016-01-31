@@ -5,9 +5,7 @@ date:   2013-12-19 09:11:03
 categories: development squarespace
 ---
 
-[I am not a developer. I am a designer.*](#update)
-
-Somehow that doesn’t stop me from getting my hands dirty in the land of the web, and I will, on occasion, take on building a website myself. I have extensive experience with WordPress (my personal site is powered by it) and have worked with Expression Engine and decided that I wanted to give Squarespace a try for this next site. I chose Squarespace for several important reasons: they provide 24/7 support for the client, have a sweet e-commerce platform built-in (the client is a retail store), have one of the most intuitive admin panels (which means clients are less likely to mess things up than in WordPress), and their JSON templating system and supporting documentation made me weak in the knees.
+[I am not a developer. I am a designer.*](#update) Somehow that doesn’t stop me from getting my hands dirty in the land of the web, and I will, on occasion, take on building a website myself. I have extensive experience with WordPress (my personal site is powered by it) and have worked with Expression Engine and decided that I wanted to give Squarespace a try for this next site. I chose Squarespace for several important reasons: they provide 24/7 support for the client, have a sweet e-commerce platform built-in (the client is a retail store), have one of the most intuitive admin panels (which means clients are less likely to mess things up than in WordPress), and their JSON templating system and supporting documentation made me weak in the knees.
 
 I presented my case to the client and they agreed that Squarespace seemed like a great fit for them, so I proceeded to set up the site for them, purchasing the $24/month Business plan that gave both the client and me access to the full set of features the site would need to function smoothly.
 

@@ -417,6 +417,11 @@ html {
 body {
   background-color: #fcfcfc; }
 
+hr {
+  border: 0;
+  border-bottom: 1px solid #d0d0d0;
+  margin: 3rem 0; }
+
 h1 {
   font-family: "trumpgothicpro";
   font-weight: 400;
@@ -477,12 +482,32 @@ p {
   line-height: 30px; }
 
 blockquote {
+  border-left: 1px solid #ec008c;
+  margin: 3rem 0;
+  padding: 0 0 0 2rem; }
+  blockquote p {
+    font-family: "source sans pro";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 26px;
+    color: #4c5c65;
+    line-height: 2.25rem; }
+  blockquote ul {
+    font-family: "source sans pro";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    list-style-type: circle;
+    line-height: 1.75rem; }
+    blockquote ul li {
+      color: #4c5c65;
+      padding: .5rem 0; }
+
+ol {
   font-family: "source sans pro";
   font-weight: 200;
   font-style: normal;
-  font-size: 30px;
-  color: #0095da;
-  padding: 1rem; }
+  font-size: 20px; }
 
 .feature-area {
   border: 1px solid #414042;

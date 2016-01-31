@@ -102,8 +102,30 @@ p {
 }
 
 blockquote {
-  @include source-xl(30px, normal);
+  border-left: 1px solid $magenta;
+  margin: 3rem 0;
+  padding: 0 0 0 2rem;
 
-  color: $cyan;
-  padding: 1rem;
+  p {
+    @include source-xl(26px, normal);
+
+    color: $gray;
+    line-height: 2.25rem;
+  }
+
+  ul {
+    @include source-xl(20px, normal);
+
+    list-style-type: circle;
+    line-height: 1.75rem;
+
+    li {
+      color: $gray;
+      padding: .5rem 0;
+    }
+  }
+}
+
+ol {
+  @include source-xl(20px, normal);
 }

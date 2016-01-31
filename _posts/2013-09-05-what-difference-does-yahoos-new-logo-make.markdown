@@ -5,10 +5,6 @@ date:   2013-09-05 09:11:03
 categories: branding
 ---
 
-Below is my latest post from [The Flores Shop blog](http://www.thefloresshop.com/thenews).
-
-***
-
 As a designer, it’s easy to critique every bit of new design I see and remark that I can do it better. It is certainly easier to find the flaws in a design than it is to commend what works well in an updated design, and this is especially true with the new Yahoo! logo. All design aside, we at The Shop take serious issue with the process of this logo, and we believe that when it comes to design, process and strategy are everything.
 
 ###30 Days of Change
@@ -70,3 +66,7 @@ I am not compelled to engage with Yahoo! because of their new logo. I believe th
 Yahoo! is facing an [uphill battle back to relevance](http://caitlynmayers.com/yahoos-uphill-journey-back-to-relevance/), and their services and user experience—the brand promises they have to define and keep—are what will determine if this brand refresh effort is a success or failure.
 
 The user experience makes the brand, not the logo.
+
+***
+
+Originally posted on [The Flores Shop blog](http://www.thefloresshop.com/thenews).

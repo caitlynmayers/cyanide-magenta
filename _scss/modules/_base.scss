@@ -17,6 +17,7 @@ $cyan: #0095da;
 $magenta: #ec008c;
 $gray: #4c5c65;
 $light-gray: #a7a7a7;
+$off-white: #d0d0d0;
 $dark-gray: #414042;
 
 html {
@@ -25,4 +26,10 @@ html {
 
 body {
   background-color: #fcfcfc;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px solid $off-white;
+	margin: 3rem 0;
 }
