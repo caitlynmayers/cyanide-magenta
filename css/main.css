@@ -422,6 +422,20 @@ hr {
   border-bottom: 1px solid #d0d0d0;
   margin: 3rem 0; }
 
+.embed-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  position: relative; }
+  .embed-wrapper iframe, .embed-wrapper object, .embed-wrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 h1 {
   font-family: "trumpgothicpro";
   font-weight: 400;
@@ -508,6 +522,9 @@ ol {
   font-weight: 200;
   font-style: normal;
   font-size: 20px; }
+
+ul {
+  line-height: auto; }
 
 .feature-area {
   border: 1px solid #414042;
@@ -810,6 +827,22 @@ footer {
     list-style-type: none; }
     .posts ul li {
       padding: 3rem; }
+  .posts .pagination {
+    font-family: "source sans pro";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .05em;
+    padding-left: 3rem; }
+    .posts .pagination .previous {
+      padding-right: 2rem; }
+    .posts .pagination .page-number {
+      font-family: "source sans pro";
+      font-weight: 200;
+      font-style: normal;
+      font-size: 18px;
+      color: #a7a7a7;
+      padding-top: 1rem; }
 
 .body {
   margin: 4rem 0 4rem 6rem;

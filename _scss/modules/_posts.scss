@@ -70,4 +70,22 @@
       padding: 3rem;
     }
   }
+
+  .pagination {
+    @include source-xl(20px, normal);
+
+    letter-spacing: .05em;
+    padding-left: 3rem;
+
+    .previous {
+      padding-right: 2rem;
+    }
+
+    .page-number {
+      @include source-xl(18px, normal);
+
+      color: $light-gray;
+      padding-top: 1rem;
+    }
+  }
 }

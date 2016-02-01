@@ -11,19 +11,25 @@ You'll love The Golden Age if you're a fan of a blend of modern and orchestral i
 
 Woodkid has created incredibly powerful, layered melodies, and has done an equally incredible job of pairing them with stunning visual imagery in their corresponding music videos.
 
-<iframe src="//player.vimeo.com/video/21604065?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" height="281" width="100%"></iframe>
+<div class="embed-wrapper">
+	<iframe src="//player.vimeo.com/video/21604065?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" frameborder="0"></iframe>
+</div>
 
 <a href="http://vimeo.com/21604065">Woodkid "Iron"</a> from <a href="http://vimeo.com/woodkidmusic">WOODKID</a> on <a href="https://vimeo.com">Vimeo</a>.
 
 There's something about black and white photography that tells a deeper, more complex story. The details and textures are richer and more alive. There's nothing there to distract you from the story, and the images speak for themselves. Combining these rich visuals with the stories in the music creates a compelling story — one that truly captivates.
 
-<iframe src="//player.vimeo.com/video/42615527?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=fffafa" height="281" width="100%"></iframe>
+<div class="embed-wrapper">
+<iframe src="//player.vimeo.com/video/42615527?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=fffafa" frameborder="0"></iframe>
+</div>
 
 [Woodkid "Run Boy Run"](http://vimeo.com/42615527) from [WOODKID](http://vimeo.com/woodkidmusic) on [Vimeo](https://vimeo.com).
 
 One of the details I most enjoy in Woodkid's videos is the simple connection of imagery from one video to the next. This cohesion is a powerful hook. As one example, the little boy appears in multiple videos, connecting the story lines from video to video, displaying a weaving of plots, a sort of game of connect the dots, that together form a grander tale.
 
-<iframe src="//player.vimeo.com/video/58912692?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" height="281" width="100%"></iframe>
+<div class="embed-wrapper">
+<iframe src="//player.vimeo.com/video/58912692?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" frameborder="0"></iframe>
+</div>
 
 [Woodkid "I Love You"](http://vimeo.com/58912692) from [WOODKID](http://vimeo.com/woodkidmusic) on [Vimeo](https://vimeo.com).
 

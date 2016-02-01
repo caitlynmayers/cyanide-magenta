@@ -129,3 +129,7 @@ blockquote {
 ol {
   @include source-xl(20px, normal);
 }
+
+ul {
+  line-height: auto;
+}
