@@ -2,7 +2,7 @@
 layout: page
 title: Case Studies
 heading: Case Studies
-subheading: This is also a test.
+subheading: I'd like to show you my work, but more importantly, the thinking behind it.
 weight: 2
 ---
 

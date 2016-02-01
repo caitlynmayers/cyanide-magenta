@@ -541,7 +541,7 @@ ul {
       display: table;
       clear: both; }
   .feature-area .content {
-    padding: 8rem 4rem;
+    padding: 4rem 4rem;
     position: relative;
     width: 55%; }
     .feature-area .content:after {
@@ -551,7 +551,7 @@ ul {
     .feature-area .content h1 {
       margin: 0; }
     .feature-area .content h6 {
-      margin-bottom: 3rem; }
+      margin-bottom: 1rem; }
 
 .-home {
   background-image: url(/img/cm.jpg);
@@ -559,6 +559,18 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   padding-bottom: .25rem; }
+  .-home .content {
+    padding: 8rem 4rem;
+    position: relative;
+    width: 55%; }
+    .-home .content:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .-home .content h1 {
+      margin: 0; }
+    .-home .content h6 {
+      margin-bottom: 3rem; }
 
 .-border--black {
   border: 1px solid #000000; }
