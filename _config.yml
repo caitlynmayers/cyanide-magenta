@@ -3,7 +3,7 @@ markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 gems: [jekyll-paginate]
-permalink: pretty
+permalink: /blog/:title/
 paginate: 8
 paginate_path: "/blog/:num/"
 collections:
