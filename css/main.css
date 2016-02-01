@@ -856,6 +856,18 @@ footer {
       color: #a7a7a7;
       padding-top: 1rem; }
 
+figure {
+  padding-top: 1rem; }
+  figure img {
+    width: 100%; }
+  figure figcaption {
+    font-family: "source sans pro";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    color: #4c5c65;
+    padding-top: 1rem; }
+
 .body {
   margin: 4rem 0 4rem 6rem;
   text-align: left;
