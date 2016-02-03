@@ -22,7 +22,7 @@ Solving problems is one of my favorite things to do. I’ve always enjoyed a goo
 
 > I’m a woman in the tech industry and am especially proud of this fact.
 
-I am currently working at [CO+LAB](https://www.teamcolab.com), a digital experience agency focusing on the web, where I get focus on strategic and design work, with a sprinkling of front-end development in the mix. I strongly believe that we need more women (and other minorities!) in our industry and need more companies to create environments that are woman-friendly. It is equally important for women in tech to volunteer and get involved with organizations that actively encourage young girls to stay interested in STEM, and I am very much looking forward to being involved in mentoring as a part of these programs in early 2016.
+I am currently working at [CO+LAB](https://www.teamcolab.com), a digital experience agency specializing in the web, where I get focus on strategic and design work, with a sprinkling of front-end development in the mix. I strongly believe that we need more women (and other minorities!) in our industry and need more companies to create environments that are woman-friendly. It is equally important for women in tech to volunteer and get involved with organizations that actively encourage young girls to stay interested in STEM, and I am very much looking forward to being involved in mentoring as a part of these programs in early 2016.
 
 > When I’m not working hard for the money at CO+LAB, I’m hanging out with my husband, reading, watching TV and movies, listening to music and podcasts, and working on fun freelance projects.
 
