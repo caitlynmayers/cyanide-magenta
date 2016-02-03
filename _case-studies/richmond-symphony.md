@@ -15,6 +15,8 @@ weight: 1
 4. Development
 5. End Results
 
+##### Role: Strategist & Designer
+
 When the Richmond Symphony approached CO+LAB about redesigning their website, I couldn't have been more excited about the project. I'm a musician — I began making music as a kid in choirs and eventually worked my way to playing Timpani in my university's Symphony Orchestra and was Principal Percussionist of the university's Wind Symphony as well. The choir I grew up performing in here in Richmond was the Greater Richmond Children's Choir, led by Hope Armstrong Erb. Her father-in-law, the late James Erb, was the choral director of the Richmond Symphony Chorus, and we were lucky enough that whenever a children's choir was needed for one of the orchestral works, we got to perform with them. I have such fond memories of these experiences, and when I was asked to do the design of this project, I was thrilled beyond belief to help translate what the Symphony means to all of us into a new visual language for their website.
 
 A majority of the strategy work had been completed by the time I joined the project, but I was brought in at the tail end of that phase. I was able to help complete a majority of the wireframes for the site, but what was more important was translating the strategic work – the wires, information architecture and template assignments — into a design system. 
