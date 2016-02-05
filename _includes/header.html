@@ -1,3 +1,38 @@
+{% if page.layout == "home" %}
+<header class="-home">
+  <div class="feature-area">
+    <div class="wrapper">
+      <a href="/">
+        <div class="logo">
+          <svg viewBox="0 0 169 41">
+              <use xlink:href="{{ site.url }}/img/sprite.svg#logo-svg-header"></use>
+          </svg>
+      </div>
+      </a>
+      <nav class="-header">
+      {% assign pages_list = site.pages | sort:"weight" %}
+      {% for node in pages_list %}
+        {% if node.title != null and node.layout =="page" %} 
+          {% assign shouldDisplay = true %}
+          {% if previousNode != null and previousNode.title == node.title %}
+            {% assign shouldDisplay = false %}
+          {% endif %}
+          {% if shouldDisplay == true %}
+            <a href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+          {% assign previousNode = node %}
+        {% endif %}
+      {% endfor %}
+      </nav>
+    </div>
+    <div class="content">
+      <h1>I help build the Internet.</h1>
+      <h6>Hi! I’m Caitlyn Mayers, and I’m a strategist, designer and front-end developer in Richmond, Virginia.</h6>
+      <button class="-blue"><a href="/about.html">Learn More About Me</a></button>
+    </div>
+  </div>
+</header>
+{% else %}
 <header>
   <div class="feature-area">
     <div class="wrapper">
@@ -40,3 +75,4 @@
     </div>
   </div>
 </header>
+{% endif %}
