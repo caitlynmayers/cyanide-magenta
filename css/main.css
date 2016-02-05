@@ -528,8 +528,7 @@ ul {
 
 .feature-area {
   border: 1px solid #414042;
-  margin: 2.5rem;
-  text-align: left; }
+  margin: 2.5rem; }
   .feature-area:after {
     content: "";
     display: table;
@@ -541,9 +540,9 @@ ul {
       display: table;
       clear: both; }
   .feature-area .content {
-    padding: 4rem 4rem;
+    padding: 4rem 0;
     position: relative;
-    width: 55%; }
+    width: 45%; }
     .feature-area .content:after {
       content: "";
       display: table;
@@ -562,6 +561,7 @@ ul {
   .-home .content {
     padding: 8rem 4rem;
     position: relative;
+    text-align: left;
     width: 55%; }
     .-home .content:after {
       content: "";
@@ -577,6 +577,15 @@ ul {
 
 .-border-right--black {
   border-right: 1px solid #000000; }
+
+.-interior .content {
+  margin: 0 auto; }
+  .-interior .content h6 {
+    padding-top: .5rem; }
+  .-interior .content hr {
+    margin: 0 auto;
+    padding: .25rem 0;
+    width: 10%; }
 
 .logo {
   border-right: 1px solid #414042;
@@ -838,14 +847,14 @@ footer {
   .posts ul {
     list-style-type: none; }
     .posts ul li {
-      padding: 3rem; }
+      padding: 3rem 0; }
   .posts .pagination {
     font-family: "source sans pro";
     font-weight: 200;
     font-style: normal;
     font-size: 20px;
     letter-spacing: .05em;
-    padding-left: 3rem; }
+    text-align: center; }
     .posts .pagination .previous {
       padding-right: 2rem; }
     .posts .pagination .page-number {
@@ -869,9 +878,10 @@ figure {
     padding-top: 1rem; }
 
 .body {
-  margin: 4rem 0 4rem 6rem;
+  margin: 0 auto;
+  padding: 4rem 0;
   text-align: left;
-  width: 55%; }
+  width: 50%; }
   .body a {
     transition: all 120ms ease-in-out;
     color: #ec008c;

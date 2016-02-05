@@ -67,7 +67,7 @@
     list-style-type: none;
 
     li {
-      padding: 3rem;
+      padding: 3rem 0;
     }
   }
 
@@ -75,7 +75,7 @@
     @include source-xl(20px, normal);
 
     letter-spacing: .05em;
-    padding-left: 3rem;
+    text-align: center;
 
     .previous {
       padding-right: 2rem;

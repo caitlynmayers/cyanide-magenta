@@ -3,7 +3,6 @@
 
   border: 1px solid $dark-gray;
   margin: 2.5rem;
-  text-align: left;
 
   .wrapper {
       @include clearfix;
@@ -14,9 +13,10 @@
   .content {
     @include clearfix;
 
-    padding: 4rem 4rem;
+    padding: 4rem 0;
+    // margin: 0 auto;
     position: relative;
-    width: 55%;
+    width: 45%;
 
     h1 {
       margin: 0;
@@ -40,6 +40,7 @@
 
       padding: 8rem 4rem;
       position: relative;
+      text-align: left;
       width: 55%;
 
       h1 {
@@ -58,4 +59,20 @@
 
 .-border-right--black{
   border-right: 1px solid #000000;
+}
+
+.-interior {
+  .content {
+    margin: 0 auto;
+
+    h6 {
+      padding-top: .5rem;
+    }
+
+    hr {
+      margin: 0 auto;
+      padding: .25rem 0;
+      width: 10%;
+    }
+  }
 }
