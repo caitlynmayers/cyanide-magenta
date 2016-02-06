@@ -1,6 +1,5 @@
-// Bourbon & Neat
+// Bourbon
 @import "bourbon/bourbon";
-@import "neat/neat";
 
 // Default Modules
 @import "modules/reset";
@@ -16,6 +15,7 @@
 @import "modules/buttons";
 @import "modules/footer";
 @import "modules/case-studies";
+@import "modules/case-study";
 @import "modules/posts";
 @import "modules/interior";
 @import "modules/forms";

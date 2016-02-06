@@ -1,16 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,200italic,400italic,600italic,700italic");
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 /*****************************************************************************/
 /*
 /* Common
 /*
 /*****************************************************************************/
 /* Global Reset */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,200italic,400italic,600italic,700italic");
 * {
   margin: 0;
   padding: 0; }
@@ -798,6 +792,58 @@ footer {
     width: 65%; }
     .-featured .action button {
       display: none; }
+
+.case-study {
+  padding: 2.5rem 0; }
+  .case-study > p, .case-study h1, .case-study h2, .case-study h3, .case-study h4, .case-study h5, .case-study h6 {
+    margin: 0 auto;
+    text-align: left;
+    width: 50%; }
+  .case-study a {
+    color: #ec008c;
+    text-decoration: none; }
+    .case-study a:hover {
+      color: #86004f; }
+  .case-study figure {
+    padding: 3rem 0; }
+  .case-study h2 {
+    font-family: "trumpgothicpro";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    color: #414042;
+    letter-spacing: .05em;
+    text-transform: uppercase; }
+  .case-study h3 {
+    font-family: "source sans pro";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 26px;
+    color: #414042;
+    letter-spacing: .05em;
+    padding: 0 0 1rem 0;
+    text-transform: none; }
+  .case-study h5 {
+    font-family: "source sans pro";
+    font-weight: 600;
+    font-style: bold;
+    font-size: 20px;
+    color: #a7a7a7;
+    letter-spacing: .1em;
+    padding: 1rem 0 .5rem 0; }
+  .case-study h6 {
+    font-family: "source sans pro";
+    font-weight: 200;
+    font-style: bold;
+    font-size: 18px;
+    color: #414042;
+    letter-spacing: .05em;
+    line-height: 2rem; }
+  .case-study p {
+    color: #414042;
+    line-height: 2rem;
+    padding: 0 0 2rem 0;
+    text-align: left; }
 
 .featured-posts {
   margin: 3rem;

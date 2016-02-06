@@ -1,0 +1,63 @@
+.case-study {
+
+	padding: 2.5rem 0;
+
+	> p, h1, h2, h3, h4, h5, h6 {
+		margin: 0 auto;
+		text-align: left;
+		width: 50%;
+	}
+
+	a {
+		color: $magenta;
+		text-decoration: none;
+
+		&:hover {
+	      color: darken($magenta, 20%);
+	    }
+	}
+
+	figure {
+		padding: 3rem 0;
+	}
+
+	h2 {
+		@include trump-reg(42px, normal);
+
+		color: $dark-gray;
+		letter-spacing: .05em;
+		text-transform: uppercase;
+	}
+
+	h3 {
+		@include source-xl(26px, normal);
+
+		color: $dark-gray;
+		letter-spacing: .05em;
+		padding: 0 0 1rem 0;
+		text-transform: none;
+	}
+
+	h5 {
+		@include source-semi(20px, bold);
+
+		color: $light-gray;
+		letter-spacing: .1em;
+		padding: 1rem 0 .5rem 0;
+	}
+
+	h6 {
+		@include source-xl(18px, bold);
+
+		color: $dark-gray;
+		letter-spacing: .05em;
+		line-height: 2rem;
+	}
+
+	p {
+		color: $dark-gray;
+		line-height: 2rem;
+		padding: 0 0 2rem 0;
+		text-align: left;
+	}
+}
