@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: case-study
 title: Elk Hill
 category: Website Design
 tags: [web strategy, web design]

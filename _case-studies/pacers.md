@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: case-study
 title: Pacers Running
 category: Website Design
-weight: 6
+weight: 7
 ---
 
 <h1>{{ page.title }}</h1>

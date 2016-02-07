@@ -10,7 +10,6 @@
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
         <!-- Favicons Here -->
-
     </head>
     <body>
         {% include header.html %}
@@ -18,6 +17,23 @@
         <section class="case-study">
             {{ content }}
         </section>
+
+        <div class="case-studies">
+          <ul>
+            {% assign case_study_list = site.case-studies | sort:"weight" %}
+            {% assign next_case_study_weight = page.weight | plus:1 %}
+            {% for case-study in case_study_list %}
+                {% if case-study.weight == next_case_study_weight %}
+                <a href="{{ case-study.url }}">
+                  <li>
+                    <h1>{{ case-study.title }}</h1>
+                    <p>{{ case-study.categories }}</p>
+                  </li>
+                </a>
+                {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
         
         {% include footer.html %}
     </body>

@@ -97,6 +97,7 @@ h6 {
 p {
   @include source-xl(20px, normal);
 
+  color: $dark-gray;
   letter-spacing: .05em;
   line-height: 30px;
 }

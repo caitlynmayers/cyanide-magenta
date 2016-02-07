@@ -62,6 +62,11 @@
 }
 
 .-interior {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: .1rem;
+
   .content {
     margin: 0 auto;
 

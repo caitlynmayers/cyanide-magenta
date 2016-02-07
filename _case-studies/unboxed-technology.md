@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: case-study
 title: Unboxed Technology
 category: Website Design
 tags: [web strategy, web design]

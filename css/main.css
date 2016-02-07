@@ -486,6 +486,7 @@ p {
   font-weight: 200;
   font-style: normal;
   font-size: 20px;
+  color: #414042;
   letter-spacing: .05em;
   line-height: 30px; }
 
@@ -572,14 +573,19 @@ ul {
 .-border-right--black {
   border-right: 1px solid #000000; }
 
-.-interior .content {
-  margin: 0 auto; }
-  .-interior .content h6 {
-    padding-top: .5rem; }
-  .-interior .content hr {
-    margin: 0 auto;
-    padding: .25rem 0;
-    width: 10%; }
+.-interior {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: .1rem; }
+  .-interior .content {
+    margin: 0 auto; }
+    .-interior .content h6 {
+      padding-top: .5rem; }
+    .-interior .content hr {
+      margin: 0 auto;
+      padding: .25rem 0;
+      width: 10%; }
 
 .logo {
   border-right: 1px solid #414042;
@@ -617,7 +623,6 @@ nav {
     padding: 0 1.5rem 1rem 1.5rem;
     text-decoration: none; }
     nav a:hover {
-      border-bottom: 4px solid #ec008c;
       color: #ec008c; }
 
 .-header {
@@ -794,7 +799,7 @@ footer {
       display: none; }
 
 .case-study {
-  padding: 2.5rem 0; }
+  padding: 4rem 0 2.5rem 0; }
   .case-study > p, .case-study h1, .case-study h2, .case-study h3, .case-study h4, .case-study h5, .case-study h6 {
     margin: 0 auto;
     text-align: left;
@@ -867,7 +872,8 @@ footer {
     padding: 3rem;
     width: 32%; }
     .featured-posts .post h3 {
-      transition: all 120ms ease-in-out; }
+      transition: all 120ms ease-in-out;
+      line-height: 2.25rem; }
       .featured-posts .post h3:hover {
         color: #0095da; }
     .featured-posts .post a {

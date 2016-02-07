@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: case-study
 title: Right Angle
 category: App Design
 tags: [UI/UX design]
