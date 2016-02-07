@@ -3,7 +3,9 @@ layout: case-study
 title: Richmond Symphony
 category: Website Design
 tags: featured
-image: "../../img/rso-feature.jpg"
+image-featured: "../../img/rso-feature.jpg"
+image-header: "../../img/rso-header.jpg"
+image-listing: "../../img/rso-listing.jpg"
 weight: 1
 ---
 

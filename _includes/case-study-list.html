@@ -3,9 +3,11 @@
   {% assign case_study_list = site.case-studies | sort:"weight" %}
     {% for case-study in case_study_list %}
     <a href="{{ case-study.url }}">
-      <li>
-        <h1>{{ case-study.title }}</h1>
-        <p>{{ case-study.categories }}</p>
+      <li style="background-image:url({{ case-study.image-listing }});">
+        <div class="content">
+          <h1>{{ case-study.title }}</h1>
+          <h5>{{ case-study.categories }}</h5>
+        </div>
       </li>
     </a>
     {% endfor %}

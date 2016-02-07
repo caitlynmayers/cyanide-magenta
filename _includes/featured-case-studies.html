@@ -3,7 +3,7 @@
   {% assign case_study_list = site.case-studies | sort:"weight" %}
     {% for case-study in case_study_list %}
       {% if case-study.tags contains "featured" %}
-      <li style="background-image:url({{ case-study.image }});">
+      <li style="background-image:url({{ case-study.image-featured }});">
         <a href="{{ case-study.url }}">
         <div class="wrapper">
           <h1>{{ case-study.title }}</h1>

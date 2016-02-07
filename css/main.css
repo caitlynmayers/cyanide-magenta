@@ -744,14 +744,26 @@ footer {
   text-align: left; }
   .case-studies a {
     text-decoration: none; }
+    .case-studies a:hover li .content {
+      background-color: rgba(0, 149, 218, 0.9); }
+      .case-studies a:hover li .content h5 {
+        color: white; }
   .case-studies h1 {
+    color: white;
     margin-bottom: 0; }
-  .case-studies p {
-    margin: 0; }
   .case-studies ul {
     list-style-type: none; }
     .case-studies ul li {
-      padding: 2rem 6rem; }
+      background-color: #414042;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 5rem; }
+      .case-studies ul li .content {
+        transition: all 100ms ease-in-out;
+        background-color: rgba(64, 62, 65, 0.9);
+        padding: 2rem;
+        width: 35%; }
 
 .-featured {
   max-height: 450px;

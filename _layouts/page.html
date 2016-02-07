@@ -14,12 +14,16 @@
     </head>
     <body>
         {% include header.html %}
-
-        <section class="body">
-
+        
+        {% if page.url contains "case-studies" %}
+        <section>
           {{ content }}
-
         </section>
+        {% else %}
+        <section class="body">    
+          {{ content }}
+        </section>
+        {% endif %}
         
         {% include footer.html %}
     </body>

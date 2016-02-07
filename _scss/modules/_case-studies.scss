@@ -3,21 +3,42 @@
 
 	a {
 		text-decoration: none;
+
+		&:hover {
+			li {
+				.content {
+					background-color: rgba(0, 149, 218,0.9);
+
+					h5 {
+						color: white;
+					}
+				}
+			}
+		}
 	}
 
 	h1 {
+		color: white;
 		margin-bottom: 0;
-	}
-
-	p {
-		margin: 0;
 	}
 
 	ul {
 		list-style-type: none;
 
 		li {
-			padding: 2rem 6rem;
+			background-color: $dark-gray;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 5rem;
+
+			.content {
+				@include transition(all 100ms ease-in-out);
+
+				background-color: rgba(64, 62, 65, 0.9);
+				padding: 2rem;
+				width: 35%;
+			}
 		}
 	}
 }
