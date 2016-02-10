@@ -18,22 +18,24 @@
             {{ content }}
         </section>
 
-        <div class="case-studies">
+        <section class="case-studies">
           <ul>
             {% assign case_study_list = site.case-studies | sort:"weight" %}
             {% assign next_case_study_weight = page.weight | plus:1 %}
             {% for case-study in case_study_list %}
                 {% if case-study.weight == next_case_study_weight %}
                 <a href="{{ case-study.url }}">
-                  <li>
-                    <h1>{{ case-study.title }}</h1>
-                    <p>{{ case-study.categories }}</p>
+                  <li style="background-image:url({{ case-study.image-listing }});">
+                    <div class="content">
+                        <h1>{{ case-study.title }}</h1>
+                        <h5>{{ case-study.categories }}</h5>
+                    </div>
                   </li>
                 </a>
                 {% endif %}
             {% endfor %}
           </ul>
-        </div>
+        </section>
         
         {% include footer.html %}
     </body>

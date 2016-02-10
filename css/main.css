@@ -387,49 +387,6 @@ p {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
-@-webkit-viewport {
-  width: device-width; }
-
-@-mos-viewport {
-  width: device-width; }
-
-@-ms-viewport {
-  width: device-width; }
-
-@-o-viewport {
-  width: device-width; }
-
-@viewport {
-  width: device-width; }
-
-*, *:before, *:after {
-  box-sizing: border-box; }
-
-html {
-  font-size: 16px; }
-
-body {
-  background-color: #fcfcfc; }
-
-hr {
-  border: 0;
-  border-bottom: 1px solid #d0d0d0;
-  margin: 3rem 0; }
-
-.embed-wrapper {
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  padding-top: 25px;
-  position: relative; }
-  .embed-wrapper iframe, .embed-wrapper object, .embed-wrapper embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-
 h1 {
   font-family: "trumpgothicpro";
   font-weight: 400;
@@ -520,6 +477,74 @@ ol {
 
 ul {
   line-height: auto; }
+
+@-webkit-viewport {
+  width: device-width; }
+
+@-mos-viewport {
+  width: device-width; }
+
+@-ms-viewport {
+  width: device-width; }
+
+@-o-viewport {
+  width: device-width; }
+
+@viewport {
+  width: device-width; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px; }
+
+body {
+  background-color: #fcfcfc; }
+
+.body {
+  margin: 0 auto;
+  padding: 4rem 0;
+  text-align: left;
+  width: 50%; }
+  .body a {
+    transition: all 120ms ease-in-out;
+    color: #ec008c;
+    text-decoration: none; }
+    .body a:hover {
+      color: #86004f; }
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #d0d0d0;
+  margin: 3rem 0; }
+
+.embed-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  position: relative; }
+  .embed-wrapper iframe, .embed-wrapper object, .embed-wrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+figure {
+  padding-top: 1rem; }
+  figure img {
+    width: 100%; }
+  figure figcaption {
+    font-family: "source sans pro";
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    color: #4c5c65;
+    letter-spacing: .05rem;
+    padding-top: 1rem; }
 
 .feature-area {
   border: 1px solid #414042;
@@ -811,7 +836,7 @@ footer {
       display: none; }
 
 .case-study {
-  padding: 4rem 0 2.5rem 0; }
+  padding: 4rem 0; }
   .case-study > p, .case-study h1, .case-study h2, .case-study h3, .case-study h4, .case-study h5, .case-study h6 {
     margin: 0 auto;
     text-align: left;
@@ -823,6 +848,12 @@ footer {
       color: #86004f; }
   .case-study figure {
     padding: 3rem 0; }
+  .case-study .half-width {
+    width: 50%; }
+  .case-study .left {
+    float: left; }
+  .case-study .right {
+    float: right; }
   .case-study h2 {
     font-family: "trumpgothicpro";
     font-weight: 400;
@@ -928,30 +959,6 @@ footer {
       font-size: 18px;
       color: #a7a7a7;
       padding-top: 1rem; }
-
-figure {
-  padding-top: 1rem; }
-  figure img {
-    width: 100%; }
-  figure figcaption {
-    font-family: "source sans pro";
-    font-weight: 200;
-    font-style: normal;
-    font-size: 16px;
-    color: #4c5c65;
-    padding-top: 1rem; }
-
-.body {
-  margin: 0 auto;
-  padding: 4rem 0;
-  text-align: left;
-  width: 50%; }
-  .body a {
-    transition: all 120ms ease-in-out;
-    color: #ec008c;
-    text-decoration: none; }
-    .body a:hover {
-      color: #86004f; }
 
 form {
   width: 100%; }

@@ -91,18 +91,3 @@
     }
   }
 }
-
-figure {
-  padding-top: 1rem;
-
-  img {
-    width: 100%;
-  }
-
-  figcaption {
-    @include source-xl(16px, normal);
-
-    color: $gray;
-    padding-top: 1rem;
-  }
-}

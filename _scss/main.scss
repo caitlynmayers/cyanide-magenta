@@ -7,8 +7,9 @@
 
 // Custom Modules
 @import "modules/mixins";
-@import "modules/base";
+@import "modules/color";
 @import "modules/type";
+@import "modules/base";
 @import "modules/header";
 @import "modules/logo";
 @import "modules/nav";
@@ -17,5 +18,4 @@
 @import "modules/case-studies";
 @import "modules/case-study";
 @import "modules/posts";
-@import "modules/interior";
 @import "modules/forms";
