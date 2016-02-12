@@ -7,3 +7,12 @@ weight: 5
 ---
 
 <h1>{{ page.title }}</h1>
+
+***
+##### Role
+###### Strategist, Designer
+##### Team
+###### Sarah Sheldon - Project Manager
+###### Dylan Wagner - Developer
+##### Agency
+###### [CO+LAB](https://www.teamcolab.com)

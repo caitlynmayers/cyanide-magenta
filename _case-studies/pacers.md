@@ -8,3 +8,13 @@ weight: 6
 ---
 
 <h1>{{ page.title }}</h1>
+
+***
+##### Role
+###### Designer
+##### Team
+###### Mike Colicchio - Project Manager
+###### Josh Scarbrough - Developer
+###### John Heiner - Designer
+##### Agency
+###### [CO+LAB](https://www.teamcolab.com)
