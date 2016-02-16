@@ -63,9 +63,9 @@ Working on this project was a joy, and it was such an honor to be a part of the 
 
 ***
 ##### Role
-###### Strategist & Designer
+###### UX & Visual Designer
 ##### Team
 ###### Mike Colicchio - Project Manager
-###### Josh Scarbrough - Strategist & Developer
+###### Josh Scarbrough - UX Designer & Developer
 ##### Agency
 ###### [CO+LAB](https://www.teamcolab.com)

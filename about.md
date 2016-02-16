@@ -16,7 +16,7 @@ Cyanide’s most common use is in mining — it’s used to extract the precious
 
 Magenta represents everything that’s right with the world — love, light, brightness, warmth,  happiness. Everything’s better with a little splash of magenta thrown in there. I guess the information below is my magenta (beside the actual magenta in my life).
 
-> I am a strategist, designer and front-end developer, and I specialize in building brands with an emphasis in digital media.
+> I am a visual / UX designer and front-end developer, and I specialize in building brands and their websites.
 
 Solving problems is one of my favorite things to do. I’ve always enjoyed a good challenge, whether it’s figuring out a better way to do something or figuring out what is logical, and I think that is why I was so drawn to design. I have a BS in Graphic Design with an emphasis in Print, but have chosen to specialize in the web after spending a few years cutting my teeth in the advertising industry. Designing and building for the web require a tremendous amount of problem-solving, strategic thinking, planning and up-front work, and my love of those aspects of design are what drew me in and have kept me here.
 

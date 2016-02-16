@@ -5,7 +5,7 @@ category: Website Design
 tags: [web strategy, web design]
 image-header: "../../img/ubx-header.jpg"
 image-listing: "../../img/ubx-listing.jpg"
-weight: 3
+weight: 5
 ---
 [Unboxed Technology](https://www.unboxedtechnology.com) is a company that creates simple training and sales enablement tools and the content that powers them to assist companies with helping their employees do their jobs better. Unboxed has a product team in-house that had previously been responsible for all of their internal product work, including their website. Unboxed saw the value in working with another team of experts and decided to partner with [CO+LAB](https://www.teamcolab.com) to help them create their new site.
 
@@ -64,9 +64,9 @@ I don't often like to use data as my sole indicator of a job well done, but afte
 
 ***
 ##### Role
-###### Strategist, Designer, QA
+###### UX Lead & Visual Designer, QA
 ##### Team
 ###### Sarah Sheldon - Project Manager
-###### [John Heiner]() - Strategist, Designer, Developer
+###### [John Heiner](https://twitter.com/johnheiner) - UX & Visual Designer, Developer, Project Lead
 ##### Agency
 ###### [CO+LAB](https://www.teamcolab.com)
