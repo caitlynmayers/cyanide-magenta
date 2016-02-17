@@ -33,6 +33,10 @@
 		float: right;
 	}
 
+	.one-third {
+		width: 33%;
+	}
+
 	h2 {
 		@include trump-reg(42px, normal);
 

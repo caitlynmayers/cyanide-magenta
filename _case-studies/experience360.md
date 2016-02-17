@@ -3,9 +3,8 @@ layout: case-study
 title: Experience 360°
 category: Branding
 tags: featured
-image-featured: "../../img/cdb-feature.jpg"
-image-header: "../../img/cdb-header.jpg"
-image-listing: "../../img/cdb-listing.jpg"
+image-header: "../../img/e360-header.jpg"
+image-listing: "../../img/e360-listing.jpg"
 weight: 4
 ---
 
@@ -29,13 +28,11 @@ The icon is a simple visual descriptor of Experience 360°. It is comprised of t
 ##### System
 Depending on the constraints of the platform, the logo can be broken down and abbreviated in order to be optimized for its application.
 
-<figure class="half-width left">
-	<img src="../../img/exp-360-system.jpg"/ alt="The Experience 360° Logo System">
+<figure>
+	<img src="../../img/e360-system-01.jpg"/ alt="The Experience 360° Logo System" class="one-third">
+	<img src="../../img/e360-system-02.jpg"/ alt="The Experience 360° Logo System" class="one-third">
+	<img src="../../img/e360-system-03.jpg"/ alt="The Experience 360° Logo System" class="one-third">
 	<figcaption>The Experience 360° Logo System</a></figcaption>
-</figure>
-<figure class="half-width right">
-	<img src="../../img/exp-360-fountain.jpg"/ alt="die cut sugar skull business card">
-	<figcaption>Die-cut sugar skull business card</a></figcaption>
 </figure>
 
 ##### Color
@@ -48,6 +45,4 @@ What I love about the foil is that it changes color based on your viewing angle,
 	<figcaption>360° still image with gradient overlay</a></figcaption>
 </figure>
 
-***
-##### Role
-###### Designer
+We're just getting started rolling out this new identity. Ryan and his crew at Experience 360° are hard at work producing VR content, and I am looking forward to seeing where they take this brand as they continue to pioneer this exciting new arena of content.
