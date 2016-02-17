@@ -7,7 +7,13 @@ image-listing: "../../img/pacers-listing.jpg"
 weight: 3
 ---
 
-<h1>{{ page.title }}</h1>
+## Challenge
+
+## Solution
+
+##### Strategy
+
+##### Design
 
 ***
 ##### Role

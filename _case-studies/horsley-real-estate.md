@@ -5,7 +5,7 @@ category: Website Design
 image-header: "../../img/horsley-header.jpg"
 image-listing: "../../img/horsley-listing.jpg"
 tags: [ux, visual design]
-weight: 4
+weight: 5
 ---
 
 For Virginians, the water holds a special place in our hearts. Many of us spend time on the water in the summers, and I am fortunate that my in-laws have a home on the Rivah (the Rappahannock River) that we can use as a weekend retreat. Being at the Rivah is a unique experience — life slows down a bit and you're able to relax and be present in the moments with those around you. These waterfront homes are in high demand, and CO+LAB partnered with [Horsley Real Estate](https://www.horsleyrealestate.com/), a group of Virginia waterfront real estate specialists, to create their new website.

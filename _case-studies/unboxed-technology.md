@@ -5,7 +5,7 @@ category: Website Design
 tags: [web strategy, web design]
 image-header: "../../img/ubx-header.jpg"
 image-listing: "../../img/ubx-listing.jpg"
-weight: 5
+weight: 6
 ---
 [Unboxed Technology](https://www.unboxedtechnology.com) is a company that creates simple training and sales enablement tools and the content that powers them to assist companies with helping their employees do their jobs better. Unboxed has a product team in-house that had previously been responsible for all of their internal product work, including their website. Unboxed saw the value in working with another team of experts and decided to partner with [CO+LAB](https://www.teamcolab.com) to help them create their new site.
 
