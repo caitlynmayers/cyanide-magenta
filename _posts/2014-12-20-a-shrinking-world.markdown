@@ -11,6 +11,11 @@ My husband, sister, dad, stepmom, aunt, uncle, grandfather and grandmother are a
 
 My grandfather has Alzheimer’s Disease, which hasn’t really been an issue much until the last 5 years or so. We definitely noticed a change in him, most notably in the conversations we were having: I fought in WWII… this is my bride (in reference to my grandmother)… Killroy was Here (I have no idea about the origin of that one)…
 
+<figure>
+	<img src="../../img/granddad-carney.jpeg"/ alt="a photo of my grandfather in world war two">
+	<figcaption>My grandfather, in one of the few photos we have of him 1. during the war and 2. smiling.</figcaption>
+</figure>
+
 With each visit every year or so, the world of stories shrank just a bit, and we found ourselves in more repetitive topics of conversation than the last visit. My grandfather’s world shrinks as each day passes, focusing in on the most traumatic experience of his life, his time as a combat engineer in the South Pacific in the second World War.
 
 At first, the Alzheimer’s was a good thing for our family because it caused my grandfather to open up about his experiences in the war, something he previously refused to do. We enjoyed hearing him talk about it, not because it was good story time, but because it was our chance to attempt to understand what he went through. My grandfather spoke of bodies floating down the body of water he was wading through and also of the time he got a haircut in Japan and realized he was letting a Japanese man hold a straight razor to his neck — a questionable decision in his mind. He spoke of escorting the women who were a part of the medical unit in the Army wherever they went to ensure their safety, and of his return to the US, where he remembers seeing the Statue of Liberty and saying “Lady, if you and I are ever to meet face to face again someday, you will have to turn and face the other way.”

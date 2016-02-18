@@ -52,7 +52,11 @@
             {% assign shouldDisplay = false %}
           {% endif %}
           {% if shouldDisplay == true %}
-            <a href="{{ node.url }}">{{ node.title }}</a>
+            {% if page.url contains node.url %}
+              <a href="{{ node.url }}" class="active">{{node.title}}</a></li>
+              {% else %}
+              <a href="{{ node.url }}">{{ node.title }}</a>
+            {% endif %}
           {% endif %}
           {% assign previousNode = node %}
         {% endif %}

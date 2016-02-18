@@ -12,8 +12,3 @@ It has been an incredible journey full of love, learning, and certainly an inord
 Here’s to making it work for 6 years, to surviving (and even enjoying!) working on iOS and web projects together without the need for counseling, and most importantly, to us and the love that’s grown in this last year. Here’s to 60 more.
 
 PS – I’m sorry for contributing to the gray hair.
-
-<figure>
-	<img src="../../img/us-caressa-rogers.jpeg"/ alt="caitlyn-andrew-taken-by-caressa-rogers">
-	<figcaption>Photo taken in July by <a href="http://www.caressarogers.com">Caressa Rogers</a></figcaption>
-</figure>

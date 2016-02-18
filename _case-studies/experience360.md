@@ -2,7 +2,6 @@
 layout: case-study
 title: Experience 360°
 category: Branding
-tags: featured
 image-header: "../../img/e360-header.jpg"
 image-listing: "../../img/e360-listing.jpg"
 weight: 4

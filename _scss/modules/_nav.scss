@@ -35,3 +35,11 @@ nav {
     }
   }
 }
+
+.active {
+  color: darken($magenta, 20%) !important;
+
+  &:hover {
+    color: $magenta !important;
+  }
+}
