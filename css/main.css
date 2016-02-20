@@ -821,25 +821,15 @@ footer {
           content: "";
           display: table;
           clear: both; }
-      .-featured ul li:hover .action {
-        max-height: 100%;
-        padding: 2.6rem; }
-        .-featured ul li:hover .action button {
-          display: block;
-          width: 100%; }
   .-featured .wrapper {
     background-color: rgba(64, 62, 65, 0.9);
-    border-bottom: 1px solid #0095da;
     padding: 3rem;
     width: 65%; }
-  .-featured .action {
-    transition: all 120ms ease-in-out;
-    background-color: rgba(0, 150, 219, 0.9);
-    max-height: 0;
-    text-align: center;
-    width: 65%; }
-    .-featured .action button {
-      display: none; }
+    .-featured .wrapper:hover {
+      transition: all 100ms ease-in-out;
+      background-color: rgba(0, 149, 218, 0.9); }
+      .-featured .wrapper:hover h5 {
+        color: white; }
 
 .case-study {
   padding: 4rem 0; }

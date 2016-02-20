@@ -70,39 +70,22 @@
 
 				float: right;
 			}
-
-			&:hover {
-
-				.action {
-					max-height: 100%;
-					padding: 2.6rem;
-
-					button {
-						display: block;
-						width: 100%;
-					}
-				}
-			}
 		}
 	}
 
 	.wrapper {
 		background-color: rgba(64, 62, 65, 0.9);
-		border-bottom: 1px solid $cyan;
 		padding: 3rem;
 		width: 65%;
-	}
 
-	.action {
-		@include transition(all 120ms ease-in-out);
+		&:hover {
+			@include transition(all 100ms ease-in-out);
 
-		background-color: rgba(0, 150, 219, 0.9);
-		max-height: 0;
-		text-align: center;
-		width: 65%;
+			background-color: rgba(0, 149, 218,0.9);
 
-		button {
-			display: none;
+			h5 {
+				color: white;
+			}
 		}
 	}
 }
