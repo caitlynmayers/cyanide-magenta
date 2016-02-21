@@ -12,7 +12,7 @@
     height: 100%;
   }
 
-  @include mediaQuery(950px){
+  @include mediaQuery(765px){
      border-right: 1px solid $dark-gray;
      max-width: 280px;
   }

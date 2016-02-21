@@ -597,7 +597,13 @@ figure {
     padding-bottom: .25rem; } }
 
 .-home .logo {
-  width: 75%; }
+  border-bottom: 1px solid #414042; }
+
+@media (min-width: 765px) {
+  .-home .logo {
+    border-bottom: none; }
+    .-home .logo svg {
+      float: left; } }
 
 .-home .content {
   padding: 2rem;
@@ -644,6 +650,13 @@ figure {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: .1rem; }
+  .-interior .logo {
+    border-bottom: 1px solid #414042; }
+  @media (min-width: 765px) {
+    .-interior .logo {
+      border-bottom: none; }
+      .-interior .logo svg {
+        float: left; } }
   .-interior .content {
     margin: 0 auto; }
     .-interior .content h6 {
@@ -666,7 +679,7 @@ figure {
     margin: 0 auto;
     max-width: 280px;
     height: 100%; }
-  @media (min-width: 950px) {
+  @media (min-width: 765px) {
     .logo {
       border-right: 1px solid #414042;
       max-width: 280px; } }
@@ -687,22 +700,33 @@ nav {
   nav a {
     transition: all 120ms ease-in-out;
     letter-spacing: .1em;
-    padding: 0 1.5rem 1rem 1.5rem;
     text-decoration: none; }
     nav a:hover {
       color: #ec008c; }
-  @media (min-width: 950px) {
+  @media (min-width: 765px) {
     nav {
       position: absolute;
       width: inherit; } }
 
 .-header {
-  display: none;
-  float: right; }
+  float: right;
+  padding: 1rem 0;
+  width: 100%; }
   .-header a {
-    color: #4c5c65; }
+    color: #4c5c65;
+    line-height: 1.75rem;
+    padding: 0 1rem; }
     .-header a:hover:visited {
       color: #ec008c; }
+  @media (min-width: 400px) {
+    .-header a {
+      padding: 0 .5rem; } }
+  @media (min-width: 765px) {
+    .-header {
+      padding-top: 1.21rem;
+      width: inherit; }
+      .-header a {
+        padding: 0 1rem; } }
 
 .active {
   color: #86004f !important; }
@@ -785,7 +809,7 @@ footer {
     footer nav a {
       color: white;
       display: inherit;
-      padding: .5 1.5rem; }
+      padding: 0 1.5rem 1rem 1.5rem; }
   @media (min-width: 950px) {
     footer nav {
       display: inline-block;

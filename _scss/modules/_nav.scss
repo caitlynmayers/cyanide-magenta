@@ -12,7 +12,6 @@ nav {
     @include transition(all 120ms ease-in-out);
 
     letter-spacing: .1em;
-    padding: 0 1.5rem 1rem 1.5rem;
     text-decoration: none;
 
     &:hover {
@@ -20,23 +19,41 @@ nav {
     }
   }
 
-  @include mediaQuery(950px){
+  @include mediaQuery(765px){
     position: absolute;
     width: inherit;
   }
 }
 
 .-header {
-  display: none;
   float: right;
+  padding: 1rem 0;
+  width: 100%;
 
   a {
     color: $gray;
+    line-height: 1.75rem;
+    padding: 0 1rem;
 
     &:hover {
       &:visited {
         color: $magenta;
       }
+    }
+  }
+
+  @include mediaQuery(400px){
+    a {
+      padding: 0 .5rem;
+    }
+  }
+
+  @include mediaQuery(765px){
+    padding-top: 1.21rem;
+    width: inherit;
+
+    a {
+      padding: 0 1rem;
     }
   }
 }
