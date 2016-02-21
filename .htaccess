@@ -1,33 +1,28 @@
 RewriteEngine On
 
-# match any URL with www and rewrite it to https without the www
-RewriteCond %{HTTP_HOST} ^(www\.)(.*) [NC]
-RewriteRule (.*) https://%2%{REQUEST_URI} [L,R=301]
-
-# match urls that are non https (without the www)
+# redirect any HTTP traffic to HTTPS
 RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} !^(www\.)(.*) [NC]
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 
-Redirect 301 /ill-never-use-squarespace-again https://www.caitlynmayers.com/blog/ill-never-use-squarespace-again
-Redirect 301 /portfolio https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/the-boathouse/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/operation-round-up/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/casa-del-barco/ https://www.caitlynmayers.com/case-studies/casa-del-barco/
-Redirect 301 /portfolio/castello-logo/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/identity/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/h-j/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/a-christmas-carol-for-two-actors/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/bb/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/northstar-academy/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/rec/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/big-idea-challenge/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/towndoorstep/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/deaf-jam/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/peoplegroups-org/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/bioenergy-washington/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/bloat/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/dyson/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/connect/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/test/ https://www.caitlynmayers.com/case-studies
-Redirect 301 /portfolio/the-joker/ https://www.caitlynmayers.com/case-studies
+Redirect 301 /ill-never-use-squarespace-again https://caitlynmayers.com/blog/ill-never-use-squarespace-again
+Redirect 301 /portfolio https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/the-boathouse/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/operation-round-up/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/casa-del-barco/ https://caitlynmayers.com/case-studies/casa-del-barco/
+Redirect 301 /portfolio/castello-logo/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/identity/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/h-j/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/a-christmas-carol-for-two-actors/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/bb/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/northstar-academy/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/rec/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/big-idea-challenge/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/towndoorstep/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/deaf-jam/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/peoplegroups-org/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/bioenergy-washington/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/bloat/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/dyson/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/connect/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/test/ https://caitlynmayers.com/case-studies
+Redirect 301 /portfolio/the-joker/ https://caitlynmayers.com/case-studies
