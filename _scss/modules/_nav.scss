@@ -3,7 +3,6 @@ nav {
   @include trump-bold(20px, normal)
 
   display: inline-block;
-  // padding: 1.25rem 0;
   right: 3rem;
   text-transform: uppercase;
   width: 100%;
@@ -19,7 +18,7 @@ nav {
     }
   }
 
-  @include mediaQuery(765px){
+  @include mediaQuery(950px){
     position: absolute;
     width: inherit;
   }

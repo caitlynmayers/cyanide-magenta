@@ -679,10 +679,11 @@ figure {
     margin: 0 auto;
     max-width: 280px;
     height: 100%; }
-  @media (min-width: 765px) {
-    .logo {
-      border-right: 1px solid #414042;
-      max-width: 280px; } }
+
+@media (min-width: 765px) {
+  .wrapper .logo {
+    border-right: 1px solid #414042;
+    max-width: 280px; } }
 
 nav {
   font-family: "trumpgothicpro";
@@ -703,7 +704,7 @@ nav {
     text-decoration: none; }
     nav a:hover {
       color: #ec008c; }
-  @media (min-width: 765px) {
+  @media (min-width: 950px) {
     nav {
       position: absolute;
       width: inherit; } }
@@ -872,6 +873,10 @@ footer {
     border: 1px solid #ffffff; }
   footer .-border {
     border-bottom: 1px solid #ffffff; }
+  @media (min-width: 950px) {
+    footer .logo {
+      border-right: 1px solid #414042;
+      max-width: 280px; } }
   @media (min-width: 950px) {
     footer .-border {
       border-right: 1px solid #ffffff;
