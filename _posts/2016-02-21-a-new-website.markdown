@@ -20,7 +20,9 @@ Between Middleman and Jekyll, I liked that Middleman seemed to have more feature
 
 I decided to go with Jekyll after all of this research for a few important reasons: it has the best support and most active dev community, which meant that working in an entirely new platform would be much easier because of those resources; it uses Liquid as its templating language, which meant I would be learning the templating language of Shopify and could use that in the future; and it was easy to spin up and deploy on almost any platform I chose.
 
-So I built my new site with Jekyll, and I really enjoyed it. I used HTML/CSS only for the site - didn't really feel like it was necessary to use any Javascript since there isn't anything that requires heavy lifting. I used [Simple Form](https://getsimpleform.com) for my contact page, and it was a breeze to implement. There are a lot of assets that have been minified, and I'd like to reduce their size even further. I know my CSS could use some refactoring for performance and I'd love to refactor it in [BEM](http://getbem.com) style, but I'll save that for another day.
+##### Some tech specs
+
+So I built my new site with Jekyll, and I really enjoyed it. I used HTML/CSS only for the site - didn't really feel like it was necessary to use any Javascript since there isn't anything that requires heavy lifting. I used Flexbox for the first time to do some stuff that had previously been done with Javascript, and I'm really excited about the future with Flexbox. I used [Simple Form](https://getsimpleform.com) for my contact page, and it was a breeze to implement. There are a lot of assets that have been minified, and I'd like to reduce their size even further. I know my CSS could use some refactoring for performance and I'd love to refactor it in [BEM](http://getbem.com) style, but I'll save that for another day.
 
 ##### Some other new stuff
 Aside from the new site, there's all new [About Me](/about) content that explains what the whole Cyanide & Magenta thing means and there are 6 brand new [case studies](/case-studies) featuring some of my favorite work.

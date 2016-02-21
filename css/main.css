@@ -1031,13 +1031,19 @@ footer {
   .case-study figure {
     padding: 3rem 0; }
   .case-study .half-width {
-    width: 50%; }
+    width: 100%; }
+    @media (min-width: 800px) {
+      .case-study .half-width {
+        width: 50%; } }
   .case-study .left {
     float: left; }
   .case-study .right {
     float: right; }
   .case-study .one-third {
-    width: 33%; }
+    width: 100%; }
+    @media (min-width: 800px) {
+      .case-study .one-third {
+        width: 33%; } }
   .case-study h2 {
     font-family: "trumpgothicpro";
     font-weight: 400;
