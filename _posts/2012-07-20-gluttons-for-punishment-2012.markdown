@@ -11,4 +11,8 @@ Election years frustrate me. I tire easily of the relentless bombardment of ads 
 
 I’d love to turn this into a t-shirt, so keep on the lookout for updates on that in the near future.
 
+<figure>
+	<img src="../../img/gluttons-for-punishment.jpeg" alt="gluttons for punishment">
+</figure>
+
 Typefaces from [Lost Type Co-op](http://www.losttype.com).

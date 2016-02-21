@@ -18,3 +18,7 @@ Design does matter. Details do matter. People notice them, both consciously and 
 Here’s the catch… nothing’s ever perfect. The best and worst part of being a graphic designer is the feeling you get once a project is finished. I experience a mix of elation, relief, satisfaction, and the pang of failure. When I reflect on my work I am always tearing it to pieces, saying what I would have done differently and wishing I had done so when I executed the design. The beauty of being a designer, though, is that you are constantly growing and improving. No matter how terrible a piece of my work may be, I always feel better because the work that follows it is better.
 
 If any company or person believes that details matter and executes this vision flawlessly, it would be Apple. Take a look at any product, especially their icon designs — the proof is in the pudding.
+
+<figure>
+	<img src="../../img/road.jpeg" alt="road lines">
+</figure>
