@@ -173,11 +173,21 @@
 		}
 
 		@include mediaQuery(800px){
-			width: 65%;
-
 			h5 {
 				color: $light-gray;
 			}
+		}
+
+		@include mediaQuery(850px){
+			width: 90%;
+		}
+
+		@include mediaQuery(1000px){
+			width: 75%;
+		}
+
+		@include mediaQuery(1100px){
+			width: 65%;
 		}
 
 		&:hover {
@@ -187,6 +197,10 @@
 
 			h5 {
 				color: white;
+			}
+
+			.-slim {
+				border-color: white;
 			}
 		}
 	}

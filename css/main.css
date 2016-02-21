@@ -796,6 +796,31 @@ button {
     top: 100%;
     z-index: -1; }
 
+.-slim {
+  border-color: #a7a7a7;
+  color: white;
+  font-size: 16px;
+  margin-top: 1rem;
+  padding: .5rem 1rem; }
+  .-slim a {
+    color: white; }
+    .-slim a:hover {
+      color: #0095da; }
+  .-slim:hover {
+    border-color: white; }
+    .-slim:hover:before {
+      top: 0; }
+  .-slim:before {
+    transition: all 120ms ease-in-out;
+    background: white;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1; }
+
 footer {
   background-color: #414042;
   display: block;
@@ -964,15 +989,24 @@ footer {
     .-featured .wrapper h1 {
       font-size: 40px; } }
   @media (min-width: 800px) {
+    .-featured .wrapper h5 {
+      color: #a7a7a7; } }
+  @media (min-width: 850px) {
     .-featured .wrapper {
-      width: 65%; }
-      .-featured .wrapper h5 {
-        color: #a7a7a7; } }
+      width: 90%; } }
+  @media (min-width: 1000px) {
+    .-featured .wrapper {
+      width: 75%; } }
+  @media (min-width: 1100px) {
+    .-featured .wrapper {
+      width: 65%; } }
   .-featured .wrapper:hover {
     transition: all 100ms ease-in-out;
     background-color: rgba(0, 149, 218, 0.9); }
     .-featured .wrapper:hover h5 {
       color: white; }
+    .-featured .wrapper:hover .-slim {
+      border-color: white; }
 
 .case-study {
   padding: 3rem 0; }
