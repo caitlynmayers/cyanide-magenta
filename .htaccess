@@ -4,6 +4,8 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
 
+ErrorDocument 404 /404
+
 Redirect 301 /ill-never-use-squarespace-again https://caitlynmayers.com/blog/ill-never-use-squarespace-again
 Redirect 301 /portfolio https://caitlynmayers.com/case-studies
 Redirect 301 /portfolio/the-boathouse/ https://caitlynmayers.com/case-studies
