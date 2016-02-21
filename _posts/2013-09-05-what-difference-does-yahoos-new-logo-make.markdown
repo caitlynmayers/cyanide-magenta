@@ -55,15 +55,13 @@ Now for the subjective part of our show. Quote below taken from Marissa Meyer’
 
 4. Playful OOs. If there’s one major gripe I have with this logo, it’s the atrocious letter spacing. Kern that Y and A and open up the spaces between the H, O and O! You’re killing me, Y  ahoo!
 
-5. Lower vs. Uppercase. It works, but this mark is certainly not readable at small sizes because of the thin line-weights (see #3 and the photo below.)
-
-<img class="alignnone size-full wp-image-1505" alt="Screen-Shot-2013-09-05-at-9.21.08-AM" src="http://caitlynmayers.com/wp-content/uploads/2013/09/Screen-Shot-2013-09-05-at-9.21.08-AM.png" width="100%" />
+5. Lower vs. Uppercase. It works, but this mark is certainly not readable at small sizes because of the thin line-weights.
 
 ###Why Does this Matter?
 
 I am not compelled to engage with Yahoo! because of their new logo. I believe they have done us in the branding and design industries a disservice by broadcasting their logo refresh method. I believe they have undermined their new logo from the beginning and that overall, this refresh is of no consequence because it does nothing to drive brand engagement now that it’s over. Users will continue to hit Google and the Internet will return to normal within a few short hours.
 
-Yahoo! is facing an [uphill battle back to relevance](http://caitlynmayers.com/yahoos-uphill-journey-back-to-relevance/), and their services and user experience—the brand promises they have to define and keep—are what will determine if this brand refresh effort is a success or failure.
+Yahoo! is facing an [uphill battle back to relevance](http://caitlynmayers.com/blog/yahoos-uphill-journey-back-to-relevance/), and their services and user experience—the brand promises they have to define and keep—are what will determine if this brand refresh effort is a success or failure.
 
 The user experience makes the brand, not the logo.
 
