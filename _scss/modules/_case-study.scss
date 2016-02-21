@@ -1,11 +1,27 @@
 .case-study {
 
-	padding: 4rem 0;
+	padding: 3rem 0;
+
+	@include mediaQuery(600px){
+		padding: 4rem 0;
+	}
 
 	> p, h1, h2, h3, h4, h5, h6 {
 		margin: 0 auto;
 		text-align: left;
-		width: 50%;
+		width: 80%;
+	}
+
+	@include mediaQuery(800px){
+		> p, h1, h2, h3, h4, h5, h6 {
+			width: 70%;
+		}
+	}
+
+	@include mediaQuery(1000px){
+		> p, h1, h2, h3, h4, h5, h6 {
+			width: 50%;
+		}
 	}
 
 	a {

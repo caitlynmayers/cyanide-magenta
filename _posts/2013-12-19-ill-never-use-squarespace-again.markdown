@@ -57,9 +57,7 @@ Since we don’t provide support for troubleshooting or creating custom code, yo
 
 http://answers.squarespace.com
 
-As a note, Answers accounts are independent from your Squarespace account. If you haven’t done so, you can sign up for Answers here:
-
-http://answers.squarespace.com/account/local/register/
+As a note, Answers accounts are independent from your Squarespace account. If you haven’t done so, you can sign up for Answers here.
 
 Let us know if you have any additional questions. Thank you.
 

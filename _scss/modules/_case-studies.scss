@@ -30,22 +30,94 @@
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			padding: 5rem;
+			padding: 2rem;
 
 			.content {
 				@include transition(all 100ms ease-in-out);
 
 				background-color: rgba(64, 62, 65, 0.9);
 				padding: 2rem;
-				width: 35%;
+				width: 100%;
+
+				h1 {
+					font-size: 30px;
+				}
+
+				h5 {
+					color: white;
+				}
+			}
+		}
+
+		@include mediaQuery(400px){
+			li {
+				.content {
+					padding: 2rem;
+
+					h1 {
+						font-size: 40px;
+					}
+				}
+			}
+		}
+
+		@include mediaQuery(600px){
+			li {
+				padding: 5rem;
+
+				.content {
+					width: 85%;
+
+					h1 {
+						font-size: 48px;
+					}
+
+					h5 {
+						color: $light-gray;
+					}
+				}
+			}
+		}
+
+		@include mediaQuery(700px){
+			li {
+				.content {
+					width: 75%;
+				}
+			}
+		}
+
+		@include mediaQuery(800px){
+			li {
+				.content {
+					width: 65%;
+				}
+			}
+		}
+
+		@include mediaQuery(900px){
+			li {
+				.content {
+					width: 55%;
+				}
+			}
+		}
+
+		@include mediaQuery(1100px){
+			li {
+				.content {
+					width: 35%;
+				}
 			}
 		}
 	}
 }
 
 .-featured {
-	max-height: 450px;
-	height: 100%;
+	@include mediaQuery(800px){
+		max-height: 450px;
+		height: 100%;
+	}
 
 	h1 {
 		color: white;
@@ -60,23 +132,53 @@
 		    background-position: center;
 		    background-repeat: no-repeat;
 		    background-size: cover;
-			float: left;
 			height: inherit;
-			padding: 2.6rem;
-			width: 50%;
+			padding: 2rem 2rem 5rem 2rem;
+			width: 100%;
 
-			&:last-child {
-				@include clearfix;
+			@include mediaQuery(400px){
+				padding-top: 3rem;
+			}
 
-				float: right;
+			@include mediaQuery(800px){
+				float: left;
+				padding: 2.6rem;
+				width: 50%;
+
+				&:last-child {
+					@include clearfix;
+
+					float: right;
+				}
 			}
 		}
 	}
 
 	.wrapper {
 		background-color: rgba(64, 62, 65, 0.9);
-		padding: 3rem;
-		width: 65%;
+		padding: 2rem;
+		width: 100%;
+
+		h1 {
+			font-size: 30px;
+		}
+
+		h5 {
+			color: white;
+		}
+		@include mediaQuery(400px){
+			h1 {
+				font-size: 40px;
+			}
+		}
+
+		@include mediaQuery(800px){
+			width: 65%;
+
+			h5 {
+				color: $light-gray;
+			}
+		}
 
 		&:hover {
 			@include transition(all 100ms ease-in-out);

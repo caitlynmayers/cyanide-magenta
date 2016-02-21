@@ -22,9 +22,14 @@ body {
 
 .body {
   margin: 0 auto;
-  padding: 3rem 0 4rem 0;
+  padding: 1rem 3rem 3rem 3rem;
   text-align: left;
-  width: 50%;
+  width: 100%;
+
+  @include mediaQuery(640px){
+    padding: 3rem 0 4rem 0;
+    width: 50%;
+  }
 
   a {
     @include transition(all 120ms ease-in-out);

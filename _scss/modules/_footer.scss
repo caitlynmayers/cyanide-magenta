@@ -6,12 +6,27 @@ footer {
 	padding: .5rem;
 
 	nav {
-		right: 13rem;
-		height: inherit;
-		padding-right: 1rem;
+		padding: 1.5rem 0 .5rem 0;
 
 		a {
 			color: white;
+			display: inherit;
+			padding: .5 1.5rem;
+		}
+	}
+
+	@include mediaQuery(950px){
+		nav {
+			display: inline-block;
+			height: inherit;
+			padding: 1.25rem 1rem;
+			position: absolute;
+			right: 13rem;
+
+			a {
+				display: inline-block;
+				padding: 0 1rem;
+			}
 		}
 	}
 
@@ -19,15 +34,19 @@ footer {
 		@include clearfix;
 
 		display: inline-block;
-		float: right;
 		height: 100%;
 		list-style-type: none;
-		padding: 1.1rem 1.5rem 0 0;
+		padding: 1rem;
 
 		li {
 			display: inline-block;
 			margin: 0 .75rem;
 			width: 30px;
+		}
+
+		@include mediaQuery(950px){
+			float: right;
+			padding: 1.1rem 1.5rem 0 0;
 		}
 	}
 	
@@ -41,8 +60,15 @@ footer {
 		border: 1px solid #ffffff;
 	}
 
-	.-border-right--white {
-		border-right: 1px solid #ffffff;
+	.-border {
+		border-bottom: 1px solid #ffffff;
+	}
+
+	@include mediaQuery(950px){
+		.-border {
+			border-right: 1px solid #ffffff;
+			border-bottom: none;
+		}
 	}
 
 	.copyright {

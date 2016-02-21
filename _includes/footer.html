@@ -1,13 +1,13 @@
 <footer>
   <div class="nav-bar -border--white">
     <a href="/">
-      <div class="logo -border-right--white">
+      <div class="logo -border">
         <svg viewBox="0 0 169 41">
             <use xlink:href="{{ site.url }}/img/sprite.svg#logo-svg-footer"></use>
         </svg>
       </div>
     </a>
-    <nav class="-border-right--white">
+    <nav class="-border">
     {% assign pages_list = site.pages | sort:"weight" %}
       {% for node in pages_list %}
         {% if node.title != null and node.layout =="page" %} 

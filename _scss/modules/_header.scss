@@ -2,7 +2,7 @@
   @include clearfix;
 
   border: 1px solid $dark-gray;
-  margin: 2.5rem;
+  margin: 2rem;
 
   .wrapper {
       @include clearfix;
@@ -13,42 +13,86 @@
   .content {
     @include clearfix;
 
-    padding: 4rem 0;
-    // margin: 0 auto;
+    padding: 2rem 0;
     position: relative;
-    width: 45%;
+    width: 80%;
 
     h1 {
+      line-height: 3rem;
       margin: 0;
     }
 
     h6 {
       margin-bottom: 1rem;
+      font-size: 20px;
+    }
+
+    @include mediaQuery(445px){
+      padding: 4rem 0;
+      width: 45%;
+
+      h6{
+        font-size: 22px;
+      }
     }
   }
 }
 
 .-home {
-    background-image: url(/img/cm.jpg);
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-bottom: .25rem;
+
+    @include mediaQuery(750px){
+      background-image: url(/img/cm.jpg);
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding-bottom: .25rem;
+    }
+
+    .logo {
+      width: 75%;
+    }
 
     .content {
       @include clearfix;
 
-      padding: 8rem 4rem;
+      padding: 2rem;
       position: relative;
       text-align: left;
-      width: 55%;
+      width: 100%;
 
       h1 {
+        font-size: 30px;
+        line-height: 2.2rem;
         margin: 0;
       }
 
       h6 {
-        margin-bottom: 3rem;
+        font-size: 18px;
+        margin-bottom: 2rem;
+        padding-top: .5rem;
+      }
+
+      @include mediaQuery(400px){
+        padding: 3rem;
+
+        h1{
+          font-size: 48px;
+          line-height: 3rem;
+        }
+
+        h6 {
+          font-size: 22px;
+          margin-bottom: 3rem;
+        }
+      }
+
+      @include mediaQuery(750px){
+        width: 75%;
+      }
+
+      @include mediaQuery(1000px){
+        padding: 8rem 4rem;
+        width: 55%;
       }
     }
   }

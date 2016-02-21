@@ -1,21 +1,48 @@
 // Styles for Featured Posts on Home Page
 
 .featured-posts {
-  margin: 3rem;
+  margin: 2rem;
   text-align: left;
 
-  .post-wrapper {
-    @include display(flex);
-    @include justify-content(space-between);
+  @include mediaQuery(1000px){
+      margin: 3rem;
+    }
 
-    margin-top: 2rem;
+    h3 {
+      margin-bottom: 1.5rem;
+    }
+
+  .post-wrapper {
+      @include mediaQuery(1000px){
+      @include display(flex);
+      @include justify-content(space-between);
+
+      margin-top: 2rem;
+    }
   }
 
   .post {
 
     border: 1px solid black;
-    padding: 3rem;
-    width: 32%;
+    margin-bottom: 2rem;
+    padding: 2.5rem;
+    width: 100%;
+
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    @include mediaQuery(1000px){
+      margin-bottom: 0;
+      padding: 3rem;
+      width: 32%;
+
+      p {
+        font-size: 22px;
+        line-height: 30px;
+      }
+    }
 
     h3 {
       @include transition(all 120ms ease-in-out);

@@ -1,6 +1,6 @@
 // Base Button Style
 button {
-	@include source-bold(18px, normal);
+	@include source-bold(16px, normal);
 
 	background: none;
 	border: 1px solid;
@@ -23,6 +23,10 @@ button {
 		&:hover {
 			color: white;
 		}
+  	}
+
+  	@include mediaQuery(400px){
+  		font-size: 18px;
   	}
 }
 

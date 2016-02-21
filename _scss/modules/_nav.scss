@@ -3,11 +3,10 @@ nav {
   @include trump-bold(20px, normal)
 
   display: inline-block;
-  height: 100%;
-  padding: 1.25rem 0;
-  position: absolute;
+  // padding: 1.25rem 0;
   right: 3rem;
   text-transform: uppercase;
+  width: 100%;
 
   a {
     @include transition(all 120ms ease-in-out);
@@ -20,9 +19,15 @@ nav {
       color: $magenta;
     }
   }
+
+  @include mediaQuery(950px){
+    position: absolute;
+    width: inherit;
+  }
 }
 
 .-header {
+  display: none;
   float: right;
 
   a {
