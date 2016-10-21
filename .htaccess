@@ -1,30 +1,33 @@
 RewriteEngine On
 
 # redirect any HTTP traffic to HTTPS
+# must check both HTTPS off & X-Forwarded-Pronto not HTTPS because 
+# the Varnish caching layer can mask the HTTPS, and cause a rewrite loop
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteCond %{HTTPS} off
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 
-ErrorDocument 404 /404
+ErrorDocument 404 /404/
 
-Redirect 301 /ill-never-use-squarespace-again https://caitlynmayers.com/blog/ill-never-use-squarespace-again
-Redirect 301 /portfolio https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/the-boathouse/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/operation-round-up/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/casa-del-barco/ https://caitlynmayers.com/case-studies/casa-del-barco/
-Redirect 301 /portfolio/castello-logo/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/identity/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/h-j/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/a-christmas-carol-for-two-actors/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/bb/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/northstar-academy/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/rec/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/big-idea-challenge/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/towndoorstep/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/deaf-jam/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/peoplegroups-org/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/bioenergy-washington/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/bloat/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/dyson/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/connect/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/test/ https://caitlynmayers.com/case-studies
-Redirect 301 /portfolio/the-joker/ https://caitlynmayers.com/case-studies
+Redirect 301 /ill-never-use-squarespace-again /blog/ill-never-use-squarespace-again
+Redirect 301 /portfolio /case-studies
+Redirect 301 /portfolio/the-boathouse/ /case-studies
+Redirect 301 /portfolio/operation-round-up/ /case-studies
+Redirect 301 /portfolio/casa-del-barco/ /case-studies/casa-del-barco/
+Redirect 301 /portfolio/castello-logo/ /case-studies
+Redirect 301 /portfolio/identity/ /case-studies
+Redirect 301 /portfolio/h-j/ /case-studies
+Redirect 301 /portfolio/a-christmas-carol-for-two-actors/ /case-studies
+Redirect 301 /portfolio/bb/ /case-studies
+Redirect 301 /portfolio/northstar-academy/ /case-studies
+Redirect 301 /portfolio/rec/ /case-studies
+Redirect 301 /portfolio/big-idea-challenge/ /case-studies
+Redirect 301 /portfolio/towndoorstep/ /case-studies
+Redirect 301 /portfolio/deaf-jam/ /case-studies
+Redirect 301 /portfolio/peoplegroups-org/ /case-studies
+Redirect 301 /portfolio/bioenergy-washington/ /case-studies
+Redirect 301 /portfolio/bloat/ /case-studies
+Redirect 301 /portfolio/dyson/ /case-studies
+Redirect 301 /portfolio/connect/ /case-studies
+Redirect 301 /portfolio/test/ /case-studies
+Redirect 301 /portfolio/the-joker/ /case-studies
