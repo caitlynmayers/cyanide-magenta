@@ -1,0 +1,45 @@
+{% if page.layout == "home" %}
+
+<nav>
+  <ul>
+  {% assign pages_list = site.pages | sort:"weight" %}
+  {% for node in pages_list %}
+    {% if node.title != null and node.layout =="page" %} 
+      {% assign shouldDisplay = true %}
+      {% if previousNode != null and previousNode.title == node.title %}
+        {% assign shouldDisplay = false %}
+      {% endif %}
+      {% if shouldDisplay == true %}
+        <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+      {% endif %}
+      {% assign previousNode = node %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+</nav>
+
+{% else %}
+
+<nav>
+  <ul>
+  {% assign pages_list = site.pages | sort:"weight" %}
+  {% for node in pages_list %}
+    {% if node.title != null and node.layout =="page" %} 
+      {% assign shouldDisplay = true %}
+      {% if previousNode != null and previousNode.title == node.title %}
+        {% assign shouldDisplay = false %}
+      {% endif %}
+      {% if shouldDisplay == true %}
+        {% if page.url contains node.url %}
+          <li><a href="{{ node.url }}" class="active">{{node.title}}</a></li>
+          {% else %}
+          <li><a href="{{ node.url }}">{{ node.title }}</a></li>
+        {% endif %}
+      {% endif %}
+      {% assign previousNode = node %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+</nav>
+
+{% endif %}

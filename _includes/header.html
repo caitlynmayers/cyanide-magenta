@@ -1,85 +1,10 @@
-{% if page.layout == "home" %}
-<header class="-home">
-  <div class="feature-area">
-    <div class="wrapper">
-      <a href="/">
-        <div class="logo">
-          <svg viewBox="0 0 169 41">
-              <use xlink:href="{{ site.url }}/img/sprite.svg#logo-svg-header"></use>
-          </svg>
-      </div>
-      </a>
-      <nav class="-header">
-      {% assign pages_list = site.pages | sort:"weight" %}
-      {% for node in pages_list %}
-        {% if node.title != null and node.layout =="page" %} 
-          {% assign shouldDisplay = true %}
-          {% if previousNode != null and previousNode.title == node.title %}
-            {% assign shouldDisplay = false %}
-          {% endif %}
-          {% if shouldDisplay == true %}
-            <a href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-          {% assign previousNode = node %}
-        {% endif %}
-      {% endfor %}
-      </nav>
-    </div>
-    <div class="content">
-      <h1>I help build the Internet.</h1>
-      <h6>Hi! I’m Caitlyn Mayers, and I’m a visual / UX designer and front-end developer in Richmond, Virginia.</h6>
-      <button class="-blue"><a href="/about">Learn More About Me</a></button>
-    </div>
-  </div>
+<header role="banner">
+  <a href="/">
+    <svg viewBox="0 0 169 41">
+      <use xlink:href="{{ site.url }}/img/sprite.svg#logo-svg-header"></use>
+    </svg>
+  </a>
+  
+  {% include navigation.html %}
+
 </header>
-{% else %}
-<header class="-interior" style="background-image:url({{ page.image-header }});">
-  <div class="feature-area">
-    <div class="wrapper">
-      <a href="/">
-        <div class="logo">
-          <svg viewBox="0 0 169 41">
-              <use xlink:href="{{ site.url }}/img/sprite.svg#logo-svg-header"></use>
-          </svg>
-      </div>
-      </a>
-      <nav class="-header -interior">
-      {% assign pages_list = site.pages | sort:"weight" %}
-      {% for node in pages_list %}
-        {% if node.title != null and node.layout =="page" %} 
-          {% assign shouldDisplay = true %}
-          {% if previousNode != null and previousNode.title == node.title %}
-            {% assign shouldDisplay = false %}
-          {% endif %}
-          {% if shouldDisplay == true %}
-            {% if page.url contains node.url %}
-              <a href="{{ node.url }}" class="active">{{node.title}}</a></li>
-              {% else %}
-              <a href="{{ node.url }}">{{ node.title }}</a>
-            {% endif %}
-          {% endif %}
-          {% assign previousNode = node %}
-        {% endif %}
-      {% endfor %}
-      </nav>
-    </div>
-    <div class="content">
-      <div>
-        {% if page.url contains "case-studies" %}
-          <h1>{{ page.title }}</h1>
-          <hr />
-          <h6>{{ page.subheading }}{{ page.categories }}</h6>
-        {% elsif page.layout == "page" %}
-          <h1>{{ page.heading }}</h1>
-          <hr />
-          <h6>{{ page.subheading }}</h6>
-        {% else %}
-          <h1>{{ page.title }}</h1>
-          <hr />
-          <h6>{{ page.date | date: '%B %d, %Y' }}</h6>
-        {% endif %}
-      </div>
-    </div>
-  </div>
-</header>
-{% endif %}

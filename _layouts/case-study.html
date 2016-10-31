@@ -7,23 +7,21 @@
 
         <main id="main">
 
-            <section class="case-study">
+            <section>
                 {{ content }}
             </section>
 
-            <section class="case-studies">
+            <section>
               <ul>
                 {% assign case_study_list = site.case-studies | sort:"weight" %}
                 {% assign next_case_study_weight = page.weight | plus:1 %}
                 {% for case-study in case_study_list %}
                     {% if case-study.weight == next_case_study_weight %}
                     <a href="{{ case-study.url }}">
-                      <li style="background-image:url({{ case-study.image-listing }});">
-                        <div class="content">
-                            <h1>{{ case-study.title }}</h1>
-                            <h5>{{ case-study.categories }}</h5>
-                            <button class="-slim"><a href="{{ case-study.url }}">Read Case Study</a></button>
-                        </div>
+                      <li>
+                        <h3>{{ case-study.title }}</h1>
+                        <h4>{{ case-study.categories }}</h5>
+                        <a href="{{ case-study.url }}">Read Case Study</a>
                       </li>
                     </a>
                     {% endif %}
