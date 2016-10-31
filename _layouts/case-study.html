@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     {% include head.html %}
     
     <body>
         {% include header.html %}
 
-        <section class="case-study">
-            {{ content }}
-        </section>
+        <main id="main">
 
-        <section class="case-studies">
-          <ul>
-            {% assign case_study_list = site.case-studies | sort:"weight" %}
-            {% assign next_case_study_weight = page.weight | plus:1 %}
-            {% for case-study in case_study_list %}
-                {% if case-study.weight == next_case_study_weight %}
-                <a href="{{ case-study.url }}">
-                  <li style="background-image:url({{ case-study.image-listing }});">
-                    <div class="content">
-                        <h1>{{ case-study.title }}</h1>
-                        <h5>{{ case-study.categories }}</h5>
-                        <button class="-slim"><a href="{{ case-study.url }}">Read Case Study</a></button>
-                    </div>
-                  </li>
-                </a>
-                {% endif %}
-            {% endfor %}
-          </ul>
-        </section>
-        
+            <section class="case-study">
+                {{ content }}
+            </section>
+
+            <section class="case-studies">
+              <ul>
+                {% assign case_study_list = site.case-studies | sort:"weight" %}
+                {% assign next_case_study_weight = page.weight | plus:1 %}
+                {% for case-study in case_study_list %}
+                    {% if case-study.weight == next_case_study_weight %}
+                    <a href="{{ case-study.url }}">
+                      <li style="background-image:url({{ case-study.image-listing }});">
+                        <div class="content">
+                            <h1>{{ case-study.title }}</h1>
+                            <h5>{{ case-study.categories }}</h5>
+                            <button class="-slim"><a href="{{ case-study.url }}">Read Case Study</a></button>
+                        </div>
+                      </li>
+                    </a>
+                    {% endif %}
+                {% endfor %}
+              </ul>
+            </section>
+
+        </main>
         {% include footer.html %}
     </body>
 </html>

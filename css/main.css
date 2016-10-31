@@ -1099,12 +1099,10 @@ footer {
   @media (min-width: 1000px) {
     .featured-posts .post-wrapper {
       display: box;
-      display: -webkit-flex;
       display: -moz-flex;
       display: -ms-flexbox;
       display: flex;
       box-pack: justify;
-      -webkit-justify-content: space-between;
       -moz-justify-content: space-between;
       -ms-justify-content: space-between;
       -o-justify-content: space-between;

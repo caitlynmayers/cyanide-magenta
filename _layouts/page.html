@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     {% include head.html %}
     
     <body>
+
         {% include header.html %}
-        
-        {% if page.url contains "case-studies" %}
-        <section>
-          {{ content }}
-        </section>
-        {% else %}
-        <section class="body">    
-          {{ content }}
-        </section>
-        {% endif %}
-        
+
+        <main id="main">
+
+            {% if page.url contains "case-studies" %}
+            
+            <section>
+              {{ content }}
+            </section>
+            
+            {% else %}
+            
+            <section class="body">    
+              {{ content }}
+            </section>
+            
+            {% endif %}
+
+        </main>
+
         {% include footer.html %}
     </body>
 </html>
