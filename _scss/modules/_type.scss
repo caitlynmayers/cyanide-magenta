@@ -95,11 +95,11 @@ h6 {
 }
 
 p {
-  @include source-xl(20px, normal);
+  @include source-xl(22px, normal);
 
   color: $dark-gray;
   letter-spacing: .05em;
-  line-height: 30px;
+  line-height: 34px;
 }
 
 blockquote {

@@ -17,7 +17,7 @@ We started concepting and created moodboards around the themes of family, food, 
 
 <figure>
 	<img src="../../img/three-skulls.jpg"/ alt="three sugar skulls">
-	<figcaption>The CdB Sugar Skull Family</a></figcaption>
+	<figcaption>The CdB Sugar Skull Family</figcaption>
 </figure>
 
 ## Brand Elements
@@ -32,14 +32,14 @@ I created the third skull in the series, whom I affectionately named San Mateo a
 </figure>
 <figure class="half-width right">
 	<img src="../../img/die-cut-cards.jpg"/ alt="die cut sugar skull business card">
-	<figcaption>Die-cut sugar skull business card</a></figcaption>
+	<figcaption>Die-cut sugar skull business card</figcaption>
 </figure>
 
 We developed an entire retail arm of the brand, most of which to our great delight, we were able to produce. This portion of the design led to some of the restaurant supply (barware, coasters, menus and binders, check clipboard, to-go bag and container labels) and influenced the staff uniforms. The t-shirts, flasks, iPhone cases, and temporary tattoos were an exercise in vendor sourcing and all exceeded our expectations. Everybody at The Flores Shop was part of constructing the brand and it was one of our most collaborative efforts to date – from designs to production methods and materials.
 
 <figure>
 	<img src="../../img/t-shirts.jpg"/ alt="custom t-shirts">
-	<figcaption>Custom t-shirts for CdB</a></figcaption>
+	<figcaption>Custom t-shirts for CdB</figcaption>
 </figure>
 
 ## Environment
@@ -48,11 +48,11 @@ The interior furnishings and fixtures were functional components and another are
 
 <figure class="half-width left">
 	<img src="../../img/exterior-sign.jpg"/ alt="hand-painted exterior sign">
-	<figcaption>Hand-painted Exterior Signage</a></figcaption>
+	<figcaption>Hand-painted Exterior Signage</figcaption>
 </figure>
 <figure class="half-width right">
 	<img src="../../img/familia-graphic.jpg"/ alt="la familia wall graphic">
-	<figcaption>La Familia Wall Graphic</a></figcaption>
+	<figcaption>La Familia Wall Graphic</figcaption>
 </figure>
 
 Our intent in every execution was to pay respect: to the history of the building, the origination of the menu, Mexico and also with a nod to Richmond, and the families – past and present – who are part of it all. Casa Del Barco is an homage to the past, and the heritage of the building as well. Via the food, branding and environmental design, we nod to the history of Mexico, its people and its cuisine.
@@ -65,4 +65,4 @@ Our intent in every execution was to pay respect: to the history of the building
 ###### Sarah Sheldon - Project Manager
 ###### [Jordan Schmidt](http://jcschmidty.com) - Designer
 ##### Agency
-###### [The Flores Shop](https://www.teamcolab.com)
+###### The Flores Shop

@@ -15,7 +15,7 @@ Horsley Real Estate’s website contains a significant amount of listing-focused
 
 <figure>
 	<img src="../../img/horsley-home.jpg"/ alt="horsley real estate home page">
-	<figcaption>The Horsley Real Estate Homepage</a></figcaption>
+	<figcaption>The Horsley Real Estate Homepage</figcaption>
 </figure>
 
 ## Solution
@@ -27,7 +27,7 @@ There were two listing contexts - the listing overview page and the listing sing
 
 <figure>
 	<img src="../../img/horsley-listing-card.jpg"/ alt="horsley real estate listing card">
-	<figcaption>The Horsley Real Estate Listing Card</a></figcaption>
+	<figcaption>The Horsley Real Estate Listing Card</figcaption>
 </figure>
 
 Something I didn't like about other real estate sites was the fact that you only saw one image for the listing in the overview context. I wanted to give users a few more photos so they could begin to visualize the space and features of the listing without having to click into the listing.
@@ -36,7 +36,7 @@ The listing single contains much more information and needed to be broken into d
 
 <figure>
 	<img src="../../img/horsley-listing-top.jpg"/ alt="top of horsley real estate listing single">
-	<figcaption>The top of the Horsley Real Estate Listing Single</a></figcaption>
+	<figcaption>The top of the Horsley Real Estate Listing Single</figcaption>
 </figure>
 
 We were fortunate that Horsley had access to a wealth of photos and videos for their listings, and we wanted to use as many of these images as possible. Instead of creating one giant gallery of photos, we added the option to embed a gallery in any of the sections and created an additional photos section where they could place other photos if they so chose.
@@ -45,7 +45,7 @@ An agent card was also added to the listing single to provide a way for users to
 
 <figure>
 	<img src="../../img/horsley-listing-pinned.jpg"/ alt="pinned content on Horsley Real Estate listing single">
-	<figcaption>Pinned content on the Horsley Real Estate Listing Single</a></figcaption>
+	<figcaption>Pinned content on the Horsley Real Estate Listing Single</figcaption>
 </figure>
 
 ##### Design

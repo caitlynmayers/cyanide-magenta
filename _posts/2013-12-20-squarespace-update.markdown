@@ -5,7 +5,7 @@ date:   2013-12-20 09:11:03
 categories: development squarespace
 ---
 
-Yesterday, I posted about [my experience with Squarespace support](#). It’s gotten quite a bit of traffic, and Squarespace was one of the entities that noticed (It helped that I tweeted them). They’ve been in touch with me and have clarified some of their positions on their support. I received the following email from Josh Kill at Squarespace:
+Yesterday, I posted about [my experience with Squarespace support](/blog/ill-never-use-squarespace-again/). It’s gotten quite a bit of traffic, and Squarespace was one of the entities that noticed (It helped that I tweeted them). They’ve been in touch with me and have clarified some of their positions on their support. I received the following email from Josh Kill at Squarespace:
 
 
 >Hi Caitlyn,

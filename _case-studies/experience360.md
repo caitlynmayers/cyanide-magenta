@@ -16,7 +16,7 @@ This new logo needed to be sleek, minimalist and representative of the VR experi
 
 <figure>
 	<img src="../../img/exp-360-logo.jpg"/ alt="The Experience 360° Logo">
-	<figcaption>The Experience 360° Logo</a></figcaption>
+	<figcaption>The Experience 360° Logo</figcaption>
 </figure>
 
 ## Brand Elements
@@ -31,7 +31,7 @@ Depending on the constraints of the platform, the logo can be broken down and ab
 	<img src="../../img/e360-system-01.jpg"/ alt="The Experience 360° Logo System" class="one-third">
 	<img src="../../img/e360-system-02.jpg"/ alt="The Experience 360° Logo System" class="one-third">
 	<img src="../../img/e360-system-03.jpg"/ alt="The Experience 360° Logo System" class="one-third">
-	<figcaption>The Experience 360° Logo System</a></figcaption>
+	<figcaption>The Experience 360° Logo System</figcaption>
 </figure>
 
 ##### Color
@@ -41,7 +41,7 @@ What I love about the foil is that it changes color based on your viewing angle,
 
 <figure>
 	<img src="../../img/exp-360-concert.jpg"/ alt="360° still image with gradient overlay">
-	<figcaption>360° still image with gradient overlay</a></figcaption>
+	<figcaption>360° still image with gradient overlay</figcaption>
 </figure>
 
 We're just getting started rolling out this new identity. Ryan and his crew at Experience 360° are hard at work producing VR content, and I am looking forward to seeing where they take this brand as they continue to pioneer this exciting new arena of content.

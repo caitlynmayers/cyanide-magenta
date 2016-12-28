@@ -11,7 +11,7 @@ Every now and again, when I'm browsing Netflix, I decide I'm going to binge all 
 
 <figure>
 	<img src="../../img/winebow-home-top.jpg"/ alt="the winebow group home page">
-	<figcaption>The Winebow Group's new Homepage</a></figcaption>
+	<figcaption>The Winebow Group's new Homepage</figcaption>
 </figure>
 
 ## Challenge
@@ -20,7 +20,7 @@ The Winebow Group is a massive company. Two years ago, The Country Vintner and W
 
 <figure>
 	<img src="../../img/winebow-dist-markets.jpg"/ alt="the winebow distribution markets page">
-	<figcaption>The Distribution Markets page</a></figcaption>
+	<figcaption>The Distribution Markets page</figcaption>
 </figure>
 
 Each project's challenges are what makes the projects fun, and one of our biggest challenges was the scale of this project. The Winebow Group has sub-companies, brands, products and a variety of stakeholders. Ensuring that this new site clearly communicated The Winebow Group's story and mission, how the companies operate and the brands/products that they offer required a lot of research and time working with The Winebow Group to figure out how all of these pieces fit together.
@@ -39,7 +39,7 @@ Organizing the information on the site into explicitly clear sections was a big 
 
 <figure>
 	<img src="../../img/winebow-brands-grid.jpg"/ alt="the winebow group brands page">
-	<figcaption>The Brands page, with multi-select filters</a></figcaption>
+	<figcaption>The Brands page, with multi-select filters</figcaption>
 </figure>
 
 Some of the most utilitarian portions of the site centered around the brands and products available through The Winebow Group and its member companies. The sales team uses the site regularly to put materials together to help educate others about the brands and products they can choose from. With hundreds of brands, thousands of products and reviews/acclaim for these brands and products, the mountain of information to be sifted through was impressive. These types of information exist in multiple areas of the site, and we created consistent design components and interaction patterns through utilizing navigation & bread crumbs, tables and multi-select data tables with view options to make finding and sorting the information easier.
@@ -50,14 +50,14 @@ Our design team focused on leveraging an atomic design system and pattern librar
 
 <figure>
 	<img src="../../img/winebow-story.jpg"/ alt="the winebow group story page">
-	<figcaption>The Our Story page</a></figcaption>
+	<figcaption>The Our Story page</figcaption>
 </figure>
 
 Once we finalized the designs, John moved straight into development and created the front-end of the website. We partnered with The Winebow Group's web team, [CHCS](http://www.chcs.com), who is responsible for maintaining The Winebow Group sites and data, to build the new site, with our team responsible for the front-end and their team responsible for the back-end and data integration of the new site. CHCS did an amazing job and we are thrilled with the results of our work together.
 
 <figure>
 	<img src="../../img/winebow-home-bottom.jpg"/ alt="the winebow group design system card components">
-	<figcaption>Card components of the design system used throughout the site</a></figcaption>
+	<figcaption>Card components of the design system used throughout the site</figcaption>
 </figure>
 
 We very much enjoyed working with The Winebow Group and CHCS on this project. I especially loved speaking with The Winebow Group's people to learn more about the company and what makes it special. Every person I talked to was equally passionate about their work and their company, and it was refreshing to see such a great group of people coming together to be the best they can be and provide the highest level of service possible.

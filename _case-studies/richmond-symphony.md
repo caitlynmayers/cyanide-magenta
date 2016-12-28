@@ -16,7 +16,7 @@ The Symphony approached us to help them solve a few problems they were experienc
 
 <figure>
 	<img src="../../img/rso-home-top.jpg"/ alt="Richmond Symphony home page">
-	<figcaption>The top of the Richmond Symphony home page</a></figcaption>
+	<figcaption>The top of the Richmond Symphony home page</figcaption>
 </figure>
 
 ## Solution
@@ -42,7 +42,7 @@ Another aspect of the Symphony experience revolves around the musicians — what
 
 <figure>
 	<img src="../../img/rso-education.jpg"/ alt="Richmond Symphony education page">
-	<figcaption>The Richmond Symphony education page</a></figcaption>
+	<figcaption>The Richmond Symphony education page</figcaption>
 </figure>
 
 The Symphony's palette was fairly neutral, and I established a baseline palette for the brand that could work with a multitude of additional colors for them. The Symphony has many concert series that they promote and had been using color-coding for these individual series in their print materials. The palette bases chosen were monochrome, gold and navy. I expanded the color-coding they had been doing by adding some depth and richness to those colors to add more cohesion to the palette.
@@ -56,7 +56,7 @@ We decided to keep the nav functionality as true to the desktop site as possible
 
 <figure>
 	<img src="../../img/rso-mobile-nav.jpg"/ alt="Richmond Symphony mobile navigation">
-	<figcaption>Richmond Symphony responsive breakdown and mobile navigation</a></figcaption>
+	<figcaption>Richmond Symphony responsive breakdown and mobile navigation</figcaption>
 </figure>
 
 Working on this project was a joy, and it was such an honor to be a part of the team. I absolutely love this site's design, but the work I'm most proud of is the mobile navigation's usability after taking the time to refine it. My greatest hope for this project is that our work will help the Richmond Symphony and its partner organizations continue to create experiences for our community that have as much impact and meaning for those that experience them as they did for me.

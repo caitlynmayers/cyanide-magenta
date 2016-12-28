@@ -11,7 +11,7 @@ weight: 6
 
 <figure>
 	<img src="../../img/ubx-home.jpg"/ alt="Unboxed Technology homepage">
-	<figcaption>The new Unboxed Technology home page</a></figcaption>
+	<figcaption>The new Unboxed Technology home page</figcaption>
 </figure>
 
 ## Challenge
@@ -22,7 +22,7 @@ Unboxed is agile, which is great. They are able to iterate, adjust and refine th
 
 <figure>
 	<img src="../../img/ubx-products.jpg"/ alt="Unboxed Technology products page">
-	<figcaption>List page for all of Unboxed's products</a></figcaption>
+	<figcaption>List page for all of Unboxed's products</figcaption>
 </figure>
 
 ## Solution
@@ -34,7 +34,7 @@ We created a new organizational structure and hierarchy that is centered around 
 
 <figure>
 	<img src="../../img/ubx-spoke.jpg"/ alt="Unboxed Technology Spoke page">
-	<figcaption>Flexible product layout for their Spoke LMS</a></figcaption>
+	<figcaption>Flexible product layout for their Spoke LMS</figcaption>
 </figure>
 
 One of the most important ways we were able to create relationships between their content types was through the Results section. It’s one thing to talk about what a product is and does, but what really establishes the importance of utilizing Unboxed’s products and services together is the success of the solutions they’ve been able to deliver for their clients. By placing this content in its own section, we were able to maintain a hierarchy of information throughout the site, helping us keep the content sharply focused on what matters within the section's context and reduce the amount of noise on the pages that had previously been an issue.
@@ -46,7 +46,7 @@ We worked through many iterations of this design than we normally have in the pa
 
 <figure>
 	<img src="../../img/ubx-modules.jpg"/ alt="Unboxed Technology modular element design example">
-	<figcaption>Examples of some of the available modules and configurations</a></figcaption>
+	<figcaption>Examples of some of the available modules and configurations</figcaption>
 </figure>
 
 We focused on adding depth to their brand, adding more sophisticated design elements but also making sure not to forget to add a  dash of fun to the site. Because Unboxed is constantly iterating, we created design elements to support their efforts to continually create and adjust the elements of the site. We set the boundaries and gave them the ability to control icons, colors, layouts of pages and assets at every turn.

@@ -120,8 +120,8 @@ I was Squarespace’s biggest fan until yesterday, and their unwillingness to pr
 ***
 
 *<a id="update"></a>
-I’ve taken the leap and am now a hybrid Designer and Front-end Developer for [CO+LAB](www.teamcolab.com). I’ve quite enjoyed this transition and consider myself a developer now, mostly.
+I’ve taken the leap and am now a hybrid Designer and Front-end Developer for [CO+LAB](http://www.teamcolab.com). I’ve quite enjoyed this transition and consider myself a developer now, mostly.
 
 For more on this issue, read my follow-up article:
 
-[I may use Squarespace again after all.](#)
+[I may use Squarespace again after all.](/blog/squarespace-update/)
