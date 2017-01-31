@@ -15,7 +15,7 @@ When the [Richmond Symphony](https://www.richmondsymphony.com) approached CO+LAB
 The Symphony approached us to help them solve a few problems they were experiencing with their old site. The Symphony has an enormous amount of concerts, events and other types of programming. All of this information was contained within the old site, but not organized or presented well. Some of the more technical challenges they faced were a result of the site being unresponsive and lacking a CMS. The Symphony also felt that their old site did not generate a strong emotional connection with the user and wanted their new site to connect with people in a more engaging way and prompt more exploration through the site.
 
 <figure>
-	<img src="../../img/rso-home-top.jpg"/ alt="Richmond Symphony home page">
+	<img src="../../img/rso-home-top.jpg" alt="Richmond Symphony home page">
 	<figcaption>The top of the Richmond Symphony home page</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ A majority of the strategy work had been completed by the time I joined the proj
 I began this process by gathering all of the documentation and outlining patterns of information. One of the benefits of having years of being a musician under my belt was my knowledge of how information should be presented and what types of information would be related and commonly associated with each other, and this made the process of identifying these patterns much smoother.
 
 <figure>
-	<img src="../../img/rso-concert.jpg"/ alt="example of Richmond Symphony concert page">
+	<img src="../../img/rso-concert.jpg" alt="example of Richmond Symphony concert page">
 	<figcaption>An example of a Richmond Symphony concert page</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ Attending an orchestra concert has always been a rich experience for me. I think
 Another aspect of the Symphony experience revolves around the musicians — what they see, hear and interact with during the concert. Something that's always stood out to me is the beauty of the visual representation of the notes themselves, and I wanted to use subtle nods to the ink on paper driving the conductor and musicians in the visual elements throughout the site. The navigation lines are a nod to the music staff, the hover and active states for the nav nodes are a nod to whole rests, the alert animation on news items is a nod to sound waves emanating from the musicians and is also in the shape of the orchestra. Using elements like these throughout the site built a cohesion between the concert and online experience that is subtle but very elegant.
 
 <figure>
-	<img src="../../img/rso-education.jpg"/ alt="Richmond Symphony education page">
+	<img src="../../img/rso-education.jpg" alt="Richmond Symphony education page">
 	<figcaption>The Richmond Symphony education page</figcaption>
 </figure>
 
@@ -55,17 +55,17 @@ The developer continued building the navigation for the site, which was modeled 
 We decided to keep the nav functionality as true to the desktop site as possible - allowing users to jump into a section or view the section's content before interacting with the links. We also determined that moving back and forth between tiers in sections was very important, so we added the section context and back links to the mobile navigation so users could move back through the sections if they didn't find what they were looking for instead of being siloed and then abandoning all hope.
 
 <figure>
-	<img src="../../img/rso-mobile-nav.jpg"/ alt="Richmond Symphony mobile navigation">
+	<img src="../../img/rso-mobile-nav.jpg" alt="Richmond Symphony mobile navigation">
 	<figcaption>Richmond Symphony responsive breakdown and mobile navigation</figcaption>
 </figure>
 
 Working on this project was a joy, and it was such an honor to be a part of the team. I absolutely love this site's design, but the work I'm most proud of is the mobile navigation's usability after taking the time to refine it. My greatest hope for this project is that our work will help the Richmond Symphony and its partner organizations continue to create experiences for our community that have as much impact and meaning for those that experience them as they did for me.
 
 ***
-##### Role
-###### UX & Visual Designer
-##### Team
-###### Mike Colicchio - Project Manager
-###### Josh Scarbrough - UX Designer & Developer
-##### Agency
-###### [CO+LAB](https://www.teamcolab.com)
+<h5>Role</h5>
+<h6>UX & Visual Designer</h6>
+<h5>Team</h5>
+<h6>Mike Colicchio - Project Manager</h6>
+<h6>Josh Scarbrough - UX Designer & Developer</h6>
+<h5>Agency</h5>
+<h6><a href="https://www.teamcolab.com">CO+LAB</a></h6>

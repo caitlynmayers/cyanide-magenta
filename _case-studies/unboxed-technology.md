@@ -10,7 +10,7 @@ weight: 6
 [Unboxed Technology](https://www.unboxedtechnology.com) is a company that creates simple training and sales enablement tools and the content that powers them to assist companies with helping their employees do their jobs better. Unboxed has a product team in-house that had previously been responsible for all of their internal product work, including their website. Unboxed saw the value in working with another team of experts and decided to partner with [CO+LAB](https://www.teamcolab.com) to help them create their new site.
 
 <figure>
-	<img src="../../img/ubx-home.jpg"/ alt="Unboxed Technology homepage">
+	<img src="../../img/ubx-home.jpg" alt="Unboxed Technology homepage">
 	<figcaption>The new Unboxed Technology home page</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ Unboxed reminded me of when Shrek described Ogres being like onions. Unboxed is 
 Unboxed is agile, which is great. They are able to iterate, adjust and refine the products they make and the services they provide. Because of this agility, their new site needed to be as flexible as possible. The second aspect of the challenge with this project was creating a modular, expandable and fully-controllable through Wordpress site that would allow them to iterate and refine on their website as much as they do with their products.
 
 <figure>
-	<img src="../../img/ubx-products.jpg"/ alt="Unboxed Technology products page">
+	<img src="../../img/ubx-products.jpg" alt="Unboxed Technology products page">
 	<figcaption>List page for all of Unboxed's products</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ Working on this project was delightfully collaborative on many fronts. We worked
 We created a new organizational structure and hierarchy that is centered around their products and services. It was very important to us to make sure that the distinctions between the products and services were explicitly clear. Unboxed has created a product suite that serves as an ecosystem of individual products that each meet a specific need of the employee journey — Onboarding & Training, Sales Productivity, Coaching & Performance Management, and we used these three groups to help create additional content relationships.
 
 <figure>
-	<img src="../../img/ubx-spoke.jpg"/ alt="Unboxed Technology Spoke page">
+	<img src="../../img/ubx-spoke.jpg" alt="Unboxed Technology Spoke page">
 	<figcaption>Flexible product layout for their Spoke LMS</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ Our lead designer, John, and I worked in tandem on this project through the desi
 We worked through many iterations of this design than we normally have in the past, which helped us hone in on details, most importantly consistency and modularity. We designed the site to be a series of modules and components used throughout the site to give Unboxed a large amount of flexibility within a consistent design system.
 
 <figure>
-	<img src="../../img/ubx-modules.jpg"/ alt="Unboxed Technology modular element design example">
+	<img src="../../img/ubx-modules.jpg" alt="Unboxed Technology modular element design example">
 	<figcaption>Examples of some of the available modules and configurations</figcaption>
 </figure>
 
@@ -63,10 +63,10 @@ This project was equal parts fun, challenge and reward. I thoroughly enjoyed the
 I don't often like to use data as my sole indicator of a job well done, but after 2 months of Unboxed's site being live, their Goal Conversion Rate was up 500%, and that's something I'm incredibly proud of.
 
 ***
-##### Role
-###### UX Lead & Visual Designer, QA
-##### Team
-###### Sarah Sheldon - Project Manager
-###### [John Heiner](https://twitter.com/johnheiner) - UX & Visual Designer, Developer, Project Lead
-##### Agency
-###### [CO+LAB](https://www.teamcolab.com)
+<h5>Role</h5>
+<h6>UX Lead & Visual Designer, QA</h6>
+<h5>Team</h5>
+<h6>Sarah Sheldon - Project Manager</h6>
+<h6><a href="https://twitter.com/johnheiner">John Heiner</a> - UX & Visual Designer, Developer, Project Lead</h6>
+<h5>Agency</h5>
+<h6><a href="https://www.teamcolab.com">CO+LAB</a></h6>

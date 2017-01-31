@@ -15,7 +15,7 @@ This brand required almost as much malleability/flexibility as a brewery brand d
 This new logo needed to be sleek, minimalist and representative of the VR experience. It also needed to capture the vibrance and excitement of this new content arena. One thing I felt was very important, though, was that this brand needed to be responsive. I believe that the same principle applied to responsive websites — that the content should be adapted to its optimum structure for its medium — should be applied in branding as well, specifically with logos. The logo should be designed to break down as it incurs space constraints. This was important to establish with the Experience 360° logo so that it could work well in a variety of applications with unique technical demands and design needs.
 
 <figure>
-	<img src="../../img/exp-360-logo.jpg"/ alt="The Experience 360° Logo">
+	<img src="../../img/exp-360-logo.jpg" alt="The Experience 360° Logo">
 	<figcaption>The Experience 360° Logo</figcaption>
 </figure>
 
@@ -28,9 +28,9 @@ The icon is a simple visual descriptor of Experience 360°. It is comprised of t
 Depending on the constraints of the platform, the logo can be broken down and abbreviated in order to be optimized for its application.
 
 <figure>
-	<img src="../../img/e360-system-01.jpg"/ alt="The Experience 360° Logo System" class="one-third">
-	<img src="../../img/e360-system-02.jpg"/ alt="The Experience 360° Logo System" class="one-third">
-	<img src="../../img/e360-system-03.jpg"/ alt="The Experience 360° Logo System" class="one-third">
+	<img src="../../img/e360-system-01.jpg" alt="The Experience 360° Logo System" class="one-third">
+	<img src="../../img/e360-system-02.jpg" alt="The Experience 360° Logo System" class="one-third">
+	<img src="../../img/e360-system-03.jpg" alt="The Experience 360° Logo System" class="one-third">
 	<figcaption>The Experience 360° Logo System</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Continuing with the theme of flexibility, I wanted to create a diverse color pal
 What I love about the foil is that it changes color based on your viewing angle, displaying a unique design to each person viewing. I felt that this translated part of the 360 video experience into a printed piece, and this idea of capturing an entire spectrum to display to each person fits right into the flexibility of this identity. I used this as my inspiraton for the color palette.
 
 <figure>
-	<img src="../../img/exp-360-concert.jpg"/ alt="360° still image with gradient overlay">
+	<img src="../../img/exp-360-concert.jpg" alt="360° still image with gradient overlay">
 	<figcaption>360° still image with gradient overlay</figcaption>
 </figure>
 

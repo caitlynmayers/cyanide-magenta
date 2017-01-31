@@ -14,7 +14,7 @@ For Virginians, the water holds a special place in our hearts. Many of us spend 
 Horsley Real Estate’s website contains a significant amount of listing-focused content. Their previous site was not editable via CMS, and the first priority was to create an administration experience that was much easier than the old site to maintain and update information. The old site wasn't responsive, had an aesthetic that was dated and was structured in a way that made it difficult to find listings and easily read the listing information - the listing information was mostly embedded in images.
 
 <figure>
-	<img src="../../img/horsley-home.jpg"/ alt="horsley real estate home page">
+	<img src="../../img/horsley-home.jpg" alt="horsley real estate home page">
 	<figcaption>The Horsley Real Estate Homepage</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ The primary focus for the site was on the listings. I conducted research into re
 There were two listing contexts - the listing overview page and the listing single page. I wanted each context to have consistency in presentation and created the listing overview structure before the listing single. I created a card for each listing, featuring key information to allow users to more easily scan and qualify the listing as meeting their needs or not quite fitting the bill. This information includes the listing name, price, agent, location and description, as well as a 3-photo gallery of the listing.
 
 <figure>
-	<img src="../../img/horsley-listing-card.jpg"/ alt="horsley real estate listing card">
+	<img src="../../img/horsley-listing-card.jpg" alt="horsley real estate listing card">
 	<figcaption>The Horsley Real Estate Listing Card</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ Something I didn't like about other real estate sites was the fact that you only
 The listing single contains much more information and needed to be broken into digestable chunks. Moving through the content, we created a structure that began at a global level and then drilled down into more detailed sections. Each listing has the meta overview at the top, with name, price location and MLS info. The content underneath that section is then organized as follows: Overview, Exterior, Interior, Additional Photos and Location. By creating these content sections, users can now more easily parse the information and understand what they're reading about instead of having to dig to find what they're looking for.
 
 <figure>
-	<img src="../../img/horsley-listing-top.jpg"/ alt="top of horsley real estate listing single">
+	<img src="../../img/horsley-listing-top.jpg" alt="top of horsley real estate listing single">
 	<figcaption>The top of the Horsley Real Estate Listing Single</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ We were fortunate that Horsley had access to a wealth of photos and videos for t
 An agent card was also added to the listing single to provide a way for users to contact the listing's agent. This card, along with the section navigation and condensed listing overview, pins to the top of the page when the page is scrolled. By pinning these items to the page when the page is scrolled, a user can still see what the address and price are, use the section navigation to move through content and see the agent information at any point they decide they would like to inquire about the listing.
 
 <figure>
-	<img src="../../img/horsley-listing-pinned.jpg"/ alt="pinned content on Horsley Real Estate listing single">
+	<img src="../../img/horsley-listing-pinned.jpg" alt="pinned content on Horsley Real Estate listing single">
 	<figcaption>Pinned content on the Horsley Real Estate Listing Single</figcaption>
 </figure>
 
@@ -54,10 +54,10 @@ I knew that this site had to have a certain look and feel, and immediately creat
 What I'm exceptionally proud of with this site is how well it's performed since we deployed it. Since deploy, the number of pages per session is 10, the average session duration is 9 minutes and the bounce rate is 32%. People are moving through the site, spending time on the site, and I'm thrilled to see this work performing well for such a great client.
 
 ***
-##### Role
-###### UX & Visual Designer
-##### Team
-###### Sarah Sheldon - Project Manager
-###### Dylan Wagner - Developer
-##### Agency
-###### [CO+LAB](https://www.teamcolab.com)
+<h5>Role</h5>
+<h6>UX & Visual Designer</h6>
+<h5>Team</h5>
+<h6>Sarah Sheldon - Project Manager</h6>
+<h6>Dylan Wagner - Developer</h6>
+<h5>Agency</h5>
+<h6><a href="https://www.teamcolab.com">CO+LAB</a></h6>
