@@ -32,13 +32,16 @@ body {
   }
 
   a {
-    @include transition(all 120ms ease-in-out);
+    @include transition(all 100ms ease-in-out);
 
+    border-bottom: 1px solid $magenta;
     color: $magenta;
     text-decoration: none;
 
     &:hover {
-      color: darken($magenta, 20%);
+      border-bottom: 2px solid $magenta;
+      padding-bottom: .125rem;
+      // color: darken($magenta, 20%);
     }
   }
 }

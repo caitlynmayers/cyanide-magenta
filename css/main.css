@@ -512,11 +512,13 @@ body {
       padding: 3rem 0 4rem 0;
       width: 50%; } }
   .body a {
-    transition: all 120ms ease-in-out;
+    transition: all 100ms ease-in-out;
+    border-bottom: 1px solid #ec008c;
     color: #ec008c;
     text-decoration: none; }
     .body a:hover {
-      color: #86004f; }
+      border-bottom: 2px solid #ec008c;
+      padding-bottom: .125rem; }
 
 hr {
   border: 0;
